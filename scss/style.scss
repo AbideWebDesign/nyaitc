@@ -1,0 +1,274 @@
+/*!
+Theme Name: NY Ag in the Classroom Map
+Version: 1.0
+*/
+* {
+	-webkit-transition: fill 250ms ease-in-out;
+	-moz-transition: fill 250ms ease-in-out;
+	-o-transition: fill 250ms ease-in-out;
+	transition: fill 250ms ease-in-out;	
+}
+.sidebar-wrap {
+	margin-left: -30px;
+}
+.sidebar {
+	box-shadow: 0 0 20px rgb(0 0 0 / 30%);
+	
+	.sidebar-map-type {
+		font-size: 14px;
+		
+		.active {
+			font-weight: bold;
+		}
+	}
+}
+
+
+
+
+
+
+
+.page-template-page-map .popover, .page-template-page-map-2020 .popover {
+  max-width: 500px;
+}
+.page-template-page-map .popover-title, .page-template-page-map-2020 .popover-title {
+  font-size: 20px;
+  font-weight: bold;
+}
+.page-template-page-map .modal, .page-template-page-map-2020 .modal {
+  top: 160px;
+}
+.page-template-page-map .popover-body, .page-template-page-map-2020 .popover-body {
+  height: 300px;
+  overflow-y: auto;
+}
+.page-template-page-map .pop-legend, .page-template-page-map-2020 .pop-legend {
+  cursor: pointer;
+  line-height: 100%;
+}
+.page-template-page-map .list-group-item .media, .page-template-page-map-2020 .list-group-item .media {
+  height: auto;
+  overflow: none;
+}
+.page-template-page-map .media-body p, .page-template-page-map-2020 .media-body p {
+  margin-top: 0;
+  padding-top: 0;
+  font-size: 16px;
+  line-height: 28px;
+}
+.page-template-page-map .media-object, .page-template-page-map-2020 .media-object {
+  width: 100px;
+}
+.page-template-page-map image:hover, .page-template-page-map-2020 image:hover {
+  cursor: pointer;
+}
+.page-template-page-map .map-legend .list-group, .page-template-page-map .video-legend .list-group, .page-template-page-map-2020 .map-legend .list-group, .page-template-page-map-2020 .video-legend .list-group {
+  margin-left: 0;
+}
+.page-template-page-map .map-legend .list-group h4, .page-template-page-map-2020 .map-legend .list-group h4 {
+  font-size: 13px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.page-template-page-map .map-legend .marker, .page-template-page-map-2020 .map-legend .marker {
+  width: 20px;
+  height: 20px;
+  background-color: #ccc;
+  margin-right: 20px;
+}
+.page-template-page-map .map-legend .fa, .page-template-page-map-2020 .map-legend .fa {
+  float: right;
+  padding-top: 2px;
+}
+.page-template-page-map .btn-legend:hover, .page-template-page-map-2020 .btn-legend:hover {
+  text-decoration: none;
+}
+.page-template-page-map .video-legend .fa, .page-template-page-map-2020 .video-legend .fa {
+  padding-top: 5px;
+}
+.page-template-page-map .legend-content, .page-template-page-map-2020 .legend-content {
+  font-size: 14px;
+  line-height: 20px;
+}
+.page-template-page-map .video-legend .list-group, .page-template-page-map-2020 .video-legend .list-group {
+  max-height: 350px;
+  overflow-y: scroll;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  border-radius: 5px;
+}
+.page-template-page-map .video-legend .list-group li, .page-template-page-map-2020 .video-legend .list-group li {
+  border-left-color: transparent;
+  border-right-color: transparent;
+}
+.page-template-page-map .video-legend .list-group li:first-child, .page-template-page-map-2020 .video-legend .list-group li:first-child {
+  border-top-color: transparent;
+}
+.page-template-page-map .video-legend .list-group li:last-child, .page-template-page-map-2020 .video-legend .list-group li:last-child {
+  border-bottom-color: transparent;
+}
+.page-template-page-map .video-legend, .page-template-page-map-2020 .video-legend {
+  /* width */
+  /* Track */
+  /* Handle */
+  /* Handle on hover */
+}
+.page-template-page-map .video-legend ::-webkit-scrollbar, .page-template-page-map-2020 .video-legend ::-webkit-scrollbar {
+  width: 10px;
+}
+.page-template-page-map .video-legend ::-webkit-scrollbar-track, .page-template-page-map-2020 .video-legend ::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+.page-template-page-map .video-legend ::-webkit-scrollbar-thumb, .page-template-page-map-2020 .video-legend ::-webkit-scrollbar-thumb {
+  background: #888;
+}
+.page-template-page-map .video-legend ::-webkit-scrollbar-thumb:hover, .page-template-page-map-2020 .video-legend ::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+@media (max-width: 767px) {
+  .page-template-page-map .media, .page-template-page-map-2020 .media {
+    width: 100%;
+    height: auto;
+  }
+}
+.cls-1, .cls-11, .cls-12 {
+  fill: #b08153;
+}
+
+.cls-2, .cls-5 {
+  fill: #92a9d7;
+}
+
+.cls-11, .cls-12, .cls-13, .cls-14, .cls-2, .cls-3, .cls-6, .cls-8, .cls-9 {
+  stroke: #fff;
+}
+
+.cls-3, .cls-4 {
+  fill: #cfdd45;
+}
+
+.cls-6 {
+  fill: none;
+}
+
+.cls-7, .cls-8 {
+  fill: #faa22c;
+}
+
+.cls-9 {
+  fill: #e86e34;
+}
+
+.cls-10 {
+  fill: #a97c50;
+}
+
+.cls-12 {
+  opacity: 0.99;
+}
+
+.cls-13 {
+  fill: #ead57d;
+}
+
+.cls-14, .cls-15 {
+  fill: #a5ad7a;
+}
+
+.cls-16, .cls-17, .cls-18 {
+  font-size: 26px;
+  font-family: MyriadPro-BoldCond, Myriad Pro;
+  font-weight: 700;
+}
+
+.cls-16 {
+  letter-spacing: 0.03em;
+}
+
+.cls-17 {
+  letter-spacing: 0.02em;
+}
+
+.cls-18 {
+  letter-spacing: 0.02em;
+}
+
+.st0 {
+  fill: none;
+}
+
+.st1 {
+  fill: #F7BC60;
+}
+
+.st2 {
+  fill: #FFFFFF;
+}
+
+.st3 {
+  fill: #B08153;
+  stroke: #FFFFFF;
+}
+
+.st4 {
+  fill: #92A9D7;
+  stroke: #FFFFFF;
+}
+
+.st5 {
+  fill: #CFDD45;
+  stroke: #FFFFFF;
+}
+
+.st6 {
+  fill: #FAA22C;
+  stroke: #FFFFFF;
+}
+
+.st7 {
+  fill: #E86E34;
+  stroke: #FFFFFF;
+}
+
+.st8 {
+  fill: #B08153;
+}
+
+.st9 {
+  opacity: 0.99;
+  fill: #B08153;
+  stroke: #FFFFFF;
+}
+
+.st10 {
+  fill: #EAD57D;
+  stroke: #FFFFFF;
+}
+
+.st11 {
+  fill: #A5AD7A;
+  stroke: #FFFFFF;
+}
+
+.st12 {
+  fill: #A5AD7A;
+}
+
+.st13 {
+  fill: #77AAAA;
+  stroke: #FFFFFF;
+}
+
+.st14 {
+  fill: none;
+  stroke: #FFFFFF;
+}
+
+.st15 {
+  font-family: "MyriadPro-BoldCond";
+}
+
+.st16 {
+  font-size: 26px;
+}
