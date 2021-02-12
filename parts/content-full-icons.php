@@ -1,4 +1,4 @@
-<g id="Apple">
+<g id="map_full_apple_icons">
 	
 		<image width="402" height="536" id="Apple_30_" xlink:href="<?php the_field('apple_icon_image'); ?>"  transform="matrix(1.227822e-02 0 0 1.227822e-02 41.9659 138.9714)">
 	</image>
@@ -45,7 +45,7 @@
 		<image width="402" height="536" id="Apple_16_" xlink:href="<?php the_field('apple_icon_image'); ?>"  transform="matrix(1.227822e-02 0 0 1.227822e-02 333.3116 253.639)">
 	</image>
 </g>
-<g id="Beefcattle">
+<g id="map_full_beef_icons">
 	
 		<image width="670" height="469" id="Beef_Cattle_20_" xlink:href="<?php the_field('beef_icon_image'); ?>"  transform="matrix(1.279131e-02 0 0 1.279131e-02 12.7401 201.2895)">
 	</image>
@@ -74,7 +74,7 @@
 		<image width="670" height="469" id="Beef_Cattle_12_" xlink:href="<?php the_field('beef_icon_image'); ?>"  transform="matrix(1.279131e-02 0 0 1.279131e-02 346.6886 115.5243)">
 	</image>
 </g>
-<g id="Cabbage">
+<g id="map_full_cabbage_icons">
 	
 		<image width="332" height="332" id="Cabbage_14_" xlink:href="<?php the_field('cabbage_icon_image'); ?>"  transform="matrix(1.471144e-02 0 0 1.471144e-02 75.8465 127.5584)">
 	</image>
@@ -94,7 +94,7 @@
 		<image width="332" height="332" id="Cabbage_9_" xlink:href="<?php the_field('cabbage_icon_image'); ?>"  transform="matrix(1.471144e-02 0 0 1.471144e-02 79.4976 154.9629)">
 	</image>
 </g>
-<g id="Cheese">
+<g id="map_full_cheese_icons">
 	
 		<image width="469" height="402" id="Cheese_30_" xlink:href="<?php the_field('cheese_icon_image'); ?>"  transform="matrix(1.275949e-02 0 0 1.275949e-02 28.9493 196.2901)">
 	</image>
@@ -138,7 +138,7 @@
 		<image width="461" height="461" id="Cheese_17_" xlink:href="<?php the_field('cheese_icon_image'); ?>"  transform="matrix(8.557450e-03 0 0 8.557450e-03 306.2605 324.3691)">
 	</image>
 </g>
-<g id="Cherry">
+<g id="map_full_cherry_icons">
 	
 		<image width="402" height="469" id="Cherry_6_" xlink:href="<?php the_field('cherry_icon_image'); ?>"  transform="matrix(1.187916e-02 0 0 1.187916e-02 47.6325 141.9292)">
 	</image>
@@ -146,7 +146,7 @@
 		<image width="402" height="469" id="Cherry_5_" xlink:href="<?php the_field('cherry_icon_image'); ?>"  transform="matrix(1.187916e-02 0 0 1.187916e-02 145.876 143.6317)">
 	</image>
 </g>
-<g id="Chicken">
+<g id="map_full_chicken_icons">
 	
 		<image width="536" height="536" id="Chicken_10_" xlink:href="<?php the_field('chicken_icon_image'); ?>"  transform="matrix(1.161002e-02 0 0 1.161002e-02 140.9053 169.648)">
 	</image>
@@ -163,7 +163,7 @@
 		<image width="469" height="536" id="Chicken_6_" xlink:href="<?php the_field('chicken_icon_image'); ?>"  transform="matrix(1.326859e-02 0 0 1.326859e-02 286.027 14.0956)">
 	</image>
 </g>
-<g id="Christmastree">
+<g id="map_full_christmas_tree_icons">
 	
 		<image width="402" height="536" id="Christmas_Tree_22_" xlink:href="<?php the_field('christmas_tree_icon_image'); ?>"  transform="matrix(1.233391e-02 0 0 1.233391e-02 103.498 144.6393)">
 	</image>
@@ -195,7 +195,7 @@
 		<image width="402" height="536" id="Christmas_Tree_13_" xlink:href="<?php the_field('christmas_tree_icon_image'); ?>"  transform="matrix(1.233391e-02 0 0 1.233391e-02 143.269 216.6512)">
 	</image>
 </g>
-<g id="Commercialfishing">
+<g id="map_full_commercial_fishing_icons">
 	
 		<image width="593" height="356" id="Commercial_Fishing_20_" xlink:href="<?php the_field('commercial_fishing_icon_image'); ?>"  transform="matrix(1.606084e-02 0 0 1.606084e-02 19.4252 165.1403)">
 	</image>
@@ -224,7 +224,7 @@
 		<image width="675" height="450" id="Commercial_Fishing_12_" xlink:href="<?php the_field('commercial_fishing_icon_image'); ?>"  transform="matrix(1.007873e-02 0 0 1.007873e-02 340.8784 326.8546)">
 	</image>
 </g>
-<g id="Corn">
+<g id="map_full_corn_icons">
 	
 		<image width="670" height="603" id="Corn_48_" xlink:href="<?php the_field('corn_icon_image'); ?>"  transform="matrix(1.316359e-02 0 0 1.316359e-02 58.5347 136.9092)">
 	</image>
@@ -295,7 +295,7 @@
 		<image width="670" height="603" id="Corn_26_" xlink:href="<?php the_field('corn_icon_image'); ?>"  transform="matrix(1.316359e-02 0 0 1.316359e-02 215.3877 147.1747)">
 	</image>
 </g>
-<g id="Dairycow">
+<g id="map_full_dairy_cow_icons">
 	
 		<image width="603" height="536" id="Dairy_Cow_26_" xlink:href="<?php the_field('dairy_cow_icon_image'); ?>"  transform="matrix(1.230606e-02 0 0 1.230606e-02 71.3953 141.5645)">
 	</image>
@@ -333,7 +333,7 @@
 		<image width="603" height="536" id="Dairy_Cow_15_" xlink:href="<?php the_field('dairy_cow_icon_image'); ?>"  transform="matrix(1.230606e-02 0 0 1.230606e-02 231.2374 82.9929)">
 	</image>
 </g>
-<g id="Dairyproduction">
+<g id="map_full_dairy_production_icons">
 	
 		<image width="370" height="370" id="Dairy_Processing_22_" xlink:href="<?php the_field('dairy_processing_icon_image'); ?>"  transform="matrix(1.534689e-02 0 0 1.534689e-02 48.4449 153.0191)">
 	</image>
@@ -365,7 +365,7 @@
 		<image width="317" height="370" id="Dairy_Processing_13_" xlink:href="<?php the_field('dairy_processing_icon_image'); ?>"  transform="matrix(1.596076e-02 0 0 1.596076e-02 299.4428 138.7606)">
 	</image>
 </g>
-<g id="Grains">
+<g id="map_full_grains_icons">
 	
 		<image width="536" height="670" id="Grains_46_" xlink:href="<?php the_field('grain_icon_image'); ?>"  transform="matrix(1.166570e-02 0 0 1.166570e-02 135.9577 213.6852)">
 	</image>
@@ -433,7 +433,7 @@
 		<image width="469" height="670" id="Grains_25_" xlink:href="<?php the_field('grain_icon_image'); ?>"  transform="matrix(1.333223e-02 0 0 1.333223e-02 23.5555 201.1878)">
 	</image>
 </g>
-<g id="Grapes">
+<g id="map_full_grapes_icons">
 	
 		<image width="536" height="536" id="Grapes_30_" xlink:href="<?php the_field('grapes_icon_image'); ?>"  transform="matrix(1.314132e-02 0 0 1.314132e-02 15.2576 215.5988)">
 	</image>
@@ -477,7 +477,7 @@
 		<image width="536" height="536" id="Grapes_17_" xlink:href="<?php the_field('grapes_icon_image'); ?>"  transform="matrix(1.314132e-02 0 0 1.314132e-02 149.5247 176.7074)">
 	</image>
 </g>
-<g id="Greenbeans">
+<g id="map_full_beans_icons">
 	
 		<image width="402" height="603" id="Green_Beans_24_" xlink:href="<?php the_field('beans_icon_image'); ?>"  transform="matrix(1.309182e-02 0 0 1.309182e-02 62.4205 163.1533)">
 	</image>
@@ -512,7 +512,7 @@
 		<image width="469" height="603" id="Green_Beans_14_" xlink:href="<?php the_field('beans_icon_image'); ?>"  transform="matrix(1.260039e-02 0 0 1.260039e-02 388.345 305.9128)">
 	</image>
 </g>
-<g id="Greenhouse">
+<g id="map_full_greenhouse_icons">
 	
 		<image width="469" height="335" id="Green_House_54_" xlink:href="<?php the_field('greenhouse_icon_image'); ?>"  transform="matrix(1.282949e-02 0 0 1.282949e-02 19.2928 194.4099)">
 	</image>
@@ -592,7 +592,7 @@
 		<image width="536" height="335" id="Green_House_29_" xlink:href="<?php the_field('greenhouse_icon_image'); ?>"  transform="matrix(1.188844e-02 0 0 1.188844e-02 366.657 303.2003)">
 	</image>
 </g>
-<g id="Hay">
+<g id="map_full_hay_icons">
 	
 		<image width="536" height="402" id="Hay_50_" xlink:href="<?php the_field('hay_icon_image'); ?>"  transform="matrix(1.202765e-02 0 0 1.202765e-02 29.9925 205.7287)">
 	</image>
@@ -666,7 +666,7 @@
 		<image width="469" height="402" id="Hay_27_" xlink:href="<?php the_field('hay_icon_image'); ?>"  transform="matrix(1.239887e-02 0 0 1.239887e-02 52.4323 173.7891)">
 	</image>
 </g>
-<g id="Honey">
+<g id="map_full_honey_icons">
 	
 		<image width="536" height="536" id="Honey_36_" xlink:href="<?php the_field('honey_icon_image'); ?>"  transform="matrix(1.314132e-02 0 0 1.314132e-02 65.2535 214.0713)">
 	</image>
@@ -719,7 +719,7 @@
 		<image width="536" height="536" id="Honey_20_" xlink:href="<?php the_field('honey_icon_image'); ?>"  transform="matrix(1.314132e-02 0 0 1.314132e-02 188.664 206.8891)">
 	</image>
 </g>
-<g id="Horses">
+<g id="map_full_horse_icons">
 	
 		<image width="565" height="706" id="Hores_32_" xlink:href="<?php the_field('horse_icon_image'); ?>"  transform="matrix(1.181613e-02 0 0 1.181613e-02 27.8234 185.7208)">
 	</image>
@@ -769,7 +769,7 @@
 		<image width="636" height="706" id="Hores_17_" xlink:href="<?php the_field('horse_icon_image'); ?>"  transform="matrix(1.169141e-02 0 0 1.169141e-02 272.8638 35.992)">
 	</image>
 </g>
-<g id="Icecream">
+<g id="map_full_ice_cream_icons">
 	
 		<image width="603" height="402" id="Ice_Cream_30_" xlink:href="<?php the_field('ice_cream_icon_image'); ?>"  transform="matrix(1.254736e-02 0 0 1.254736e-02 106.0444 129.8237)">
 	</image>
@@ -813,7 +813,7 @@
 		<image width="603" height="402" id="Ice_Cream_17_" xlink:href="<?php the_field('ice_cream_icon_image'); ?>"  transform="matrix(1.254736e-02 0 0 1.254736e-02 291.5245 243.6615)">
 	</image>
 </g>
-<g id="Maple">
+<g id="map_full_maple_icons">
 	
 		<image width="345" height="394" id="Maple_44_" xlink:href="<?php the_field('maple_icon_image'); ?>"  transform="matrix(1.570747e-02 0 0 1.570747e-02 6.4636 202.9534)">
 	</image>
@@ -878,7 +878,7 @@
 		<image width="296" height="345" id="Maple_24_" xlink:href="<?php the_field('maple_icon_image'); ?>"  transform="matrix(1.793838e-02 0 0 1.793838e-02 91.4069 166.5708)">
 	</image>
 </g>
-<g id="Peas">
+<g id="map_full_peas_icons">
 	
 		<image width="536" height="402" id="Peas_52_" xlink:href="<?php the_field('peas_icon_image'); ?>"  transform="matrix(1.255664e-02 0 0 1.255664e-02 50.758 129.4762)">
 	</image>
@@ -955,7 +955,7 @@
 		<image width="469" height="469" id="Peas_28_" xlink:href="<?php the_field('peas_icon_image'); ?>"  transform="matrix(1.250493e-02 0 0 1.250493e-02 194.4637 84.8428)">
 	</image>
 </g>
-<g id="Pig">
+<g id="map_full_pig_icons">
 	
 		<image width="670" height="469" id="Pig_14_" xlink:href="<?php the_field('pigs_icon_image'); ?>"  transform="matrix(1.110489e-02 0 0 1.110489e-02 125.3443 212.8497)">
 	</image>
@@ -978,7 +978,7 @@
 		<image width="603" height="402" id="Pig_8_" xlink:href="<?php the_field('pigs_icon_image'); ?>"  transform="matrix(1.295570e-02 0 0 1.295570e-02 335.279 208.3822)">
 	</image>
 </g>
-<g id="Potato">
+<g id="map_full_potatoes_icons">
 	
 		<image width="603" height="335" id="Potato_22_" xlink:href="<?php the_field('potatoes_icon_image'); ?>"  transform="matrix(1.264635e-02 0 0 1.264635e-02 45.5725 184.3964)">
 	</image>
@@ -1010,7 +1010,7 @@
 		<image width="603" height="402" id="Potato_13_" xlink:href="<?php the_field('potatoes_icon_image'); ?>"  transform="matrix(1.132232e-02 0 0 1.132232e-02 347.7984 315.7797)">
 	</image>
 </g>
-<g id="Sheep">
+<g id="map_full_sheep_icons">
 	
 		<image width="603" height="536" id="Sheep_22_" xlink:href="<?php the_field('sheep_icon_image'); ?>"  transform="matrix(1.219470e-02 0 0 1.219470e-02 71.0878 154.9268)">
 	</image>
@@ -1042,7 +1042,7 @@
 		<image width="603" height="536" id="Sheep_13_" xlink:href="<?php the_field('sheep_icon_image'); ?>"  transform="matrix(1.219470e-02 0 0 1.219470e-02 181.8556 172.8461)">
 	</image>
 </g>
-<g id="Soybeans">
+<g id="map_full_soybeans_icons">
 	
 		<image width="603" height="536" id="Soybeans_12_" xlink:href="<?php the_field('soybeans_icon_image'); ?>"  transform="matrix(1.319700e-02 0 0 1.319700e-02 40.4548 131.2247)">
 	</image>
@@ -1062,7 +1062,7 @@
 		<image width="670" height="536" id="Soybeans_7_" xlink:href="<?php the_field('soybeans_icon_image'); ?>"  transform="matrix(1.302995e-02 0 0 1.302995e-02 61.3876 150.0554)">
 	</image>
 </g>
-<g id="Timber">
+<g id="map_full_timber_icons">
 	
 		<image width="670" height="402" id="Timber_44_" xlink:href="<?php the_field('timber_icon_image'); ?>"  transform="matrix(1.158218e-02 0 0 1.158218e-02 26.2651 216.9711)">
 	</image>

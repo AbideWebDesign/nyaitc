@@ -13,13 +13,25 @@ Version: 1.0
 }
 .sidebar {
 	box-shadow: 0 0 20px rgb(0 0 0 / 30%);
+	background-color: #F8F9FA;
 	
-	.sidebar-map-type {
+	h4 {
+		font-size: 18px;
+		color: #0C3363;
+	}
+	.sidebar-header {
+		background-color: #EFEFEF;
+		border-bottom: 1px solid #CECFCF;
+	}
+	.sidebar-toggles {
 		font-size: 14px;
-		
+		padding: 1em;
 		.active {
 			font-weight: bold;
 		}
+	}
+	.selected {
+		color: #0082F9;
 	}
 }
 
