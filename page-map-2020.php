@@ -14,7 +14,7 @@ get_header();
 				
 				<div class="sidebar-header p-2">
 					
-					<img src="<?php echo home_url('/wp-content/themes/nyag/img/logo.svg'); ?>" />
+					<img src="<?php echo get_template_directory_uri(); ?>/img/logo.svg" />
 					
 				</div>
 				
