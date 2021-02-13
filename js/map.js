@@ -113,12 +113,13 @@ jQuery( document ).ready( function( $ ) {
 			
 			$( '#Topo' ).hide( 'slow' );
 			$( '#Regions' ).show( 'slow' );
+			$( '#Counties' ).show( 'slow' );
 	
 		} else if ( this.value == 'topo' ) {
 			
+			$( '#Counties' ).hide( 'slow' );
 			$( '#Regions' ).hide( 'slow' );
 			$( '#Topo' ).show( 'slow' );
-			
 	
 		}
 	
