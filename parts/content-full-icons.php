@@ -47,31 +47,31 @@
 </g>
 <g id="map_full_beef_icons">
 	
-		<image width="670" height="469" id="Beef_Cattle_20_" xlink:href="<?php the_field('beef_icon_image'); ?>"  transform="matrix(1.279131e-02 0 0 1.279131e-02 12.7401 201.2895)">
+		<image width="670" height="469" id="Beef_Cattle_20_" xlink:href="<?php the_field('beef_cattle_icon_image'); ?>"  transform="matrix(1.279131e-02 0 0 1.279131e-02 12.7401 201.2895)">
 	</image>
 	
-		<image width="603" height="469" id="Beef_Cattle_19_" xlink:href="<?php the_field('beef_icon_image'); ?>"  transform="matrix(1.279131e-02 0 0 1.279131e-02 53.596 201.6803)">
+		<image width="603" height="469" id="Beef_Cattle_19_" xlink:href="<?php the_field('beef_cattle_icon_image'); ?>"  transform="matrix(1.279131e-02 0 0 1.279131e-02 53.596 201.6803)">
 	</image>
 	
-		<image width="670" height="469" id="Beef_Cattle_18_" xlink:href="<?php the_field('beef_icon_image'); ?>"  transform="matrix(1.279131e-02 0 0 1.279131e-02 79.4942 210.9913)">
+		<image width="670" height="469" id="Beef_Cattle_18_" xlink:href="<?php the_field('beef_cattle_icon_image'); ?>"  transform="matrix(1.279131e-02 0 0 1.279131e-02 79.4942 210.9913)">
 	</image>
 	
-		<image width="670" height="469" id="Beef_Cattle_17_" xlink:href="<?php the_field('beef_icon_image'); ?>"  transform="matrix(1.279131e-02 0 0 1.279131e-02 115.9535 184.4619)">
+		<image width="670" height="469" id="Beef_Cattle_17_" xlink:href="<?php the_field('beef_cattle_icon_image'); ?>"  transform="matrix(1.279131e-02 0 0 1.279131e-02 115.9535 184.4619)">
 	</image>
 	
-		<image width="670" height="469" id="Beef_Cattle_16_" xlink:href="<?php the_field('beef_icon_image'); ?>"  transform="matrix(1.279131e-02 0 0 1.279131e-02 228.7939 176.7037)">
+		<image width="670" height="469" id="Beef_Cattle_16_" xlink:href="<?php the_field('beef_cattle_icon_image'); ?>"  transform="matrix(1.279131e-02 0 0 1.279131e-02 228.7939 176.7037)">
 	</image>
 	
-		<image width="670" height="469" id="Beef_Cattle_15_" xlink:href="<?php the_field('beef_icon_image'); ?>"  transform="matrix(1.279131e-02 0 0 1.279131e-02 275.4323 199.1049)">
+		<image width="670" height="469" id="Beef_Cattle_15_" xlink:href="<?php the_field('beef_cattle_icon_image'); ?>"  transform="matrix(1.279131e-02 0 0 1.279131e-02 275.4323 199.1049)">
 	</image>
 	
-		<image width="670" height="469" id="Beef_Cattle_14_" xlink:href="<?php the_field('beef_icon_image'); ?>"  transform="matrix(1.279131e-02 0 0 1.279131e-02 267.9121 176.1069)">
+		<image width="670" height="469" id="Beef_Cattle_14_" xlink:href="<?php the_field('beef_cattle_icon_image'); ?>"  transform="matrix(1.279131e-02 0 0 1.279131e-02 267.9121 176.1069)">
 	</image>
 	
-		<image width="670" height="469" id="Beef_Cattle_13_" xlink:href="<?php the_field('beef_icon_image'); ?>"  transform="matrix(1.279131e-02 0 0 1.279131e-02 252.9155 28.5282)">
+		<image width="670" height="469" id="Beef_Cattle_13_" xlink:href="<?php the_field('beef_cattle_icon_image'); ?>"  transform="matrix(1.279131e-02 0 0 1.279131e-02 252.9155 28.5282)">
 	</image>
 	
-		<image width="670" height="469" id="Beef_Cattle_12_" xlink:href="<?php the_field('beef_icon_image'); ?>"  transform="matrix(1.279131e-02 0 0 1.279131e-02 346.6886 115.5243)">
+		<image width="670" height="469" id="Beef_Cattle_12_" xlink:href="<?php the_field('beef_cattle_icon_image'); ?>"  transform="matrix(1.279131e-02 0 0 1.279131e-02 346.6886 115.5243)">
 	</image>
 </g>
 <g id="map_full_cabbage_icons">
@@ -140,10 +140,10 @@
 </g>
 <g id="map_full_cherry_icons">
 	
-		<image width="402" height="469" id="Cherry_6_" xlink:href="<?php the_field('cherry_icon_image'); ?>"  transform="matrix(1.187916e-02 0 0 1.187916e-02 47.6325 141.9292)">
+		<image width="402" height="469" id="Cherry_6_" xlink:href="<?php the_field('cherries_icon_image'); ?>"  transform="matrix(1.187916e-02 0 0 1.187916e-02 47.6325 141.9292)">
 	</image>
 	
-		<image width="402" height="469" id="Cherry_5_" xlink:href="<?php the_field('cherry_icon_image'); ?>"  transform="matrix(1.187916e-02 0 0 1.187916e-02 145.876 143.6317)">
+		<image width="402" height="469" id="Cherry_5_" xlink:href="<?php the_field('cherries_icon_image'); ?>"  transform="matrix(1.187916e-02 0 0 1.187916e-02 145.876 143.6317)">
 	</image>
 </g>
 <g id="map_full_chicken_icons">
