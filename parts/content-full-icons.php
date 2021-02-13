@@ -957,25 +957,25 @@
 </g>
 <g id="map_full_pig_icons">
 	
-		<image width="670" height="469" id="Pig_14_" xlink:href="<?php the_field('pigs_icon_image'); ?>"  transform="matrix(1.110489e-02 0 0 1.110489e-02 125.3443 212.8497)">
+		<image width="670" height="469" id="Pig_14_" xlink:href="<?php the_field('pig_icon_image'); ?>"  transform="matrix(1.110489e-02 0 0 1.110489e-02 125.3443 212.8497)">
 	</image>
 	
-		<image width="603" height="469" id="Pig_13_" xlink:href="<?php the_field('pigs_icon_image'); ?>"  transform="matrix(1.110489e-02 0 0 1.110489e-02 159.5387 184.8573)">
+		<image width="603" height="469" id="Pig_13_" xlink:href="<?php the_field('pig_icon_image'); ?>"  transform="matrix(1.110489e-02 0 0 1.110489e-02 159.5387 184.8573)">
 	</image>
 	
-		<image width="603" height="402" id="Pig_12_" xlink:href="<?php the_field('pigs_icon_image'); ?>"  transform="matrix(1.295570e-02 0 0 1.295570e-02 151.8688 150.2708)">
+		<image width="603" height="402" id="Pig_12_" xlink:href="<?php the_field('pig_icon_image'); ?>"  transform="matrix(1.295570e-02 0 0 1.295570e-02 151.8688 150.2708)">
 	</image>
 	
-		<image width="603" height="402" id="Pig_11_" xlink:href="<?php the_field('pigs_icon_image'); ?>"  transform="matrix(1.295570e-02 0 0 1.295570e-02 157.4285 144.4082)">
+		<image width="603" height="402" id="Pig_11_" xlink:href="<?php the_field('pig_icon_image'); ?>"  transform="matrix(1.295570e-02 0 0 1.295570e-02 157.4285 144.4082)">
 	</image>
 	
-		<image width="603" height="402" id="Pig_10_" xlink:href="<?php the_field('pigs_icon_image'); ?>"  transform="matrix(1.295570e-02 0 0 1.295570e-02 244.5051 110.752)">
+		<image width="603" height="402" id="Pig_10_" xlink:href="<?php the_field('pig_icon_image'); ?>"  transform="matrix(1.295570e-02 0 0 1.295570e-02 244.5051 110.752)">
 	</image>
 	
-		<image width="603" height="402" id="Pig_9_" xlink:href="<?php the_field('pigs_icon_image'); ?>"  transform="matrix(1.295570e-02 0 0 1.295570e-02 345.6964 108.576)">
+		<image width="603" height="402" id="Pig_9_" xlink:href="<?php the_field('pig_icon_image'); ?>"  transform="matrix(1.295570e-02 0 0 1.295570e-02 345.6964 108.576)">
 	</image>
 	
-		<image width="603" height="402" id="Pig_8_" xlink:href="<?php the_field('pigs_icon_image'); ?>"  transform="matrix(1.295570e-02 0 0 1.295570e-02 335.279 208.3822)">
+		<image width="603" height="402" id="Pig_8_" xlink:href="<?php the_field('pig_icon_image'); ?>"  transform="matrix(1.295570e-02 0 0 1.295570e-02 335.279 208.3822)">
 	</image>
 </g>
 <g id="map_full_potatoes_icons">
