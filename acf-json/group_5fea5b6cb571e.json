@@ -79,7 +79,7 @@
         {
             "key": "field_5fea5c56e14a2",
             "label": "Beef Cattle",
-            "name": "beef",
+            "name": "beef_cattle",
             "type": "clone",
             "instructions": "",
             "required": 0,
@@ -142,7 +142,7 @@
         {
             "key": "field_5fea5c03dbebb",
             "label": "Cherries",
-            "name": "Cherry",
+            "name": "cherries",
             "type": "clone",
             "instructions": "",
             "required": 0,
@@ -634,5 +634,5 @@
     ],
     "active": true,
     "description": "",
-    "modified": 1613174509
+    "modified": 1613174658
 }
