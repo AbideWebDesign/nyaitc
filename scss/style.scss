@@ -8,6 +8,9 @@ Version: 1.0
 	-o-transition: fill 250ms ease-in-out;
 	transition: fill 250ms ease-in-out;	
 }
+html {
+  scroll-behavior: smooth;
+}
 .sidebar-wrap {
 	margin-left: -30px;
 }
@@ -34,12 +37,17 @@ Version: 1.0
 		color: #0082F9;
 	}
 }
+.link-alt {
+	color: #aaa;
+	font-size: 17px;
+	text-decoration: underline;
+}
 
-
-
-
-
-
+@media (min-width: 1200px) {
+	.container, .container-lg, .container-md, .container-sm, .container-xl {
+	    max-width: 1340px !important;
+	}
+}
 
 .page-template-page-map .popover, .page-template-page-map-2020 .popover {
   max-width: 500px;

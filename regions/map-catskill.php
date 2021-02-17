@@ -41,7 +41,7 @@
 		  	data-content="
 			  	<div class='media'>
 					<div class='media-body'>
-						<h3 class='text-primary mt-3 mb-4'>Top 5 Commodoties</h3>
+						<h3 class='text-primary mt-3 mb-4'>Top 5 Commodities</h3>
 						<h5><strong>1. Vegetables, melons, potatoes, sweet potatoes</strong></h5>
 						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 						<h5><strong>2. Nursery, greenhouse, floriculture, sod</strong></h5>

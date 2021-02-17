@@ -271,7 +271,7 @@ get_header();
 		
 		<div class="col-lg-10">
 			
-			<div class="svg-wrap my-3">
+			<div id="map-full" class="svg-wrap my-3">
 			
 				<svg version="1.2" baseProfile="tiny" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 430.9 334.9" overflow="visible" xml:space="preserve">
 					
@@ -301,7 +301,7 @@ get_header();
 			
 			<div class="col-12 text-center">
 				
-				<h2 class="text-light">Region Maps</h2>
+				<h2 class="text-light"><?php _e('Region Maps'); ?></h2>
 				
 			</div>
 			
@@ -313,28 +313,10 @@ get_header();
 
 <div class="py-5">
 	
-	<div id="region-catskill" class="container">
-		
-		<div class="row justify-content-center">
-			
-			<div class="col-12">
-				
-				<h3>Catskill</h3>
-				
-				<p class="lead mb-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-				
-			</div>
-			
-			<div class="col-lg-8">
-				
-				<?php echo get_template_part('regions/map', 'catskill'); ?>
-				
-			</div>
-			
-		</div>
-		
-	</div>	
+	<?php $data = array ( 'region' => 'catskill' ); ?>
 	
+	<?php get_template_part( 'parts/content', 'region', $data ); ?>
+		
 </div>
 
 <?php get_footer(); ?>
