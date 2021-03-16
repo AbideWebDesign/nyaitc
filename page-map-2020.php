@@ -2,25 +2,27 @@
 
 get_header();
 
-?>
+?>	
 
-<div class="container-fluid">
-	
-	<div class="row justify-content-center">
+<div class="d-flex flex-column flex-md-row">
 
-		<div class="col-lg-2 align-self-stretch sidebar-wrap">
+	<div class="align-self-stretch sidebar-wrap">
+		
+		<div class="sidebar h-100">
 			
-			<div class="sidebar h-100">
+			<nav class="navbar navbar-expand-md navbar-light bg-light flex-row flex-md-column">
+		
+				<a class="navbar-brand" href="#"><img src="<?php echo get_template_directory_uri(); ?>/img/logo.svg" width="150px;" /></a>
 				
-				<div class="sidebar-header p-2">
-					
-					<img src="<?php echo get_template_directory_uri(); ?>/img/logo.svg" />
-					
-				</div>
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarMobile" aria-controls="navbarMobile" aria-expanded="false" aria-label="Toggle navigation">
 				
-				<div class="sidebar-toggles">
+					<span class="navbar-toggler-icon"></span>
 					
-					<div class="mb-4">
+				</button>
+			
+				<div class="sidebar-toggles collapse navbar-collapse flex-column" id="navbarMobile">
+					
+					<div class="mb-4 w-100">
 						
 						<h4 class="mb-2"><?php _e('Map Type'); ?></h4>
 						
@@ -69,7 +71,8 @@ get_header();
 							<label class="custom-control-label" for="beefToggle"><?php _e('Beef Cattle'); ?></label>
 						
 						</div>
-
+	
+	<!--
 						<div class="custom-control custom-switch mb-1">
 						
 							<input type="checkbox" class="custom-control-input" id="cabbageToggle" checked>
@@ -85,7 +88,8 @@ get_header();
 							<label class="custom-control-label" for="cheeseToggle"><?php _e('Cheese'); ?></label>
 						
 						</div>
-
+	-->
+	
 						<div class="custom-control custom-switch mb-1">
 						
 							<input type="checkbox" class="custom-control-input" id="cherryToggle" checked>
@@ -93,7 +97,8 @@ get_header();
 							<label class="custom-control-label" for="cherryToggle"><?php _e('Cherries'); ?></label>
 						
 						</div>
-
+	
+	<!--
 						<div class="custom-control custom-switch mb-1">
 						
 							<input type="checkbox" class="custom-control-input" id="chickenToggle" checked>
@@ -101,7 +106,8 @@ get_header();
 							<label class="custom-control-label" for="chickenToggle"><?php _e('Chicken'); ?></label>
 						
 						</div>
-
+	-->
+	
 						<div class="custom-control custom-switch mb-1">
 						
 							<input type="checkbox" class="custom-control-input" id="christmas_treeToggle" checked>
@@ -109,7 +115,7 @@ get_header();
 							<label class="custom-control-label" for="christmas_treeToggle"><?php _e('Christmas Tree'); ?></label>
 						
 						</div>
-
+	
 						<div class="custom-control custom-switch mb-1">
 						
 							<input type="checkbox" class="custom-control-input" id="cornToggle" checked>
@@ -117,7 +123,7 @@ get_header();
 							<label class="custom-control-label" for="cornToggle"><?php _e('Corn'); ?></label>
 						
 						</div>
-
+	
 						<div class="custom-control custom-switch mb-1">
 						
 							<input type="checkbox" class="custom-control-input" id="commercial_fishingToggle" checked>
@@ -125,7 +131,7 @@ get_header();
 							<label class="custom-control-label" for="commercial_fishingToggle"><?php _e('Commercial Fishing'); ?></label>
 						
 						</div>
-
+	
 						<div class="custom-control custom-switch mb-1">
 						
 							<input type="checkbox" class="custom-control-input" id="dairy_cowToggle" checked>
@@ -133,7 +139,8 @@ get_header();
 							<label class="custom-control-label" for="dairy_cowToggle"><?php _e('Dairy Cow'); ?></label>
 						
 						</div>
-
+	
+	<!--
 						<div class="custom-control custom-switch mb-1">
 						
 							<input type="checkbox" class="custom-control-input" id="dairy_productionToggle" checked>
@@ -141,7 +148,9 @@ get_header();
 							<label class="custom-control-label" for="dairy_productionToggle"><?php _e('Dairy Production'); ?></label>
 						
 						</div>
-
+	-->
+	
+	<!--
 						<div class="custom-control custom-switch mb-1">
 						
 							<input type="checkbox" class="custom-control-input" id="grainsToggle" checked>
@@ -149,7 +158,8 @@ get_header();
 							<label class="custom-control-label" for="grainsToggle"><?php _e('Grains'); ?></label>
 						
 						</div>
-
+	-->
+	
 						<div class="custom-control custom-switch mb-1">
 						
 							<input type="checkbox" class="custom-control-input" id="grapesToggle" checked>
@@ -157,7 +167,8 @@ get_header();
 							<label class="custom-control-label" for="grapesToggle"><?php _e('Grapes'); ?></label>
 						
 						</div>
-
+	
+	<!--
 						<div class="custom-control custom-switch mb-1">
 						
 							<input type="checkbox" class="custom-control-input" id="beansToggle" checked>
@@ -165,7 +176,8 @@ get_header();
 							<label class="custom-control-label" for="beansToggle"><?php _e('Beans'); ?></label>
 						
 						</div>
-
+	-->
+	
 						<div class="custom-control custom-switch mb-1">
 						
 							<input type="checkbox" class="custom-control-input" id="greenhouseToggle" checked>
@@ -173,7 +185,8 @@ get_header();
 							<label class="custom-control-label" for="greenhouseToggle"><?php _e('Greenhouse'); ?></label>
 						
 						</div>
-
+	
+	<!--
 						<div class="custom-control custom-switch mb-1">
 						
 							<input type="checkbox" class="custom-control-input" id="hayToggle" checked>
@@ -181,7 +194,8 @@ get_header();
 							<label class="custom-control-label" for="hayToggle"><?php _e('Hay'); ?></label>
 						
 						</div>
-
+	-->
+	
 						<div class="custom-control custom-switch mb-1">
 						
 							<input type="checkbox" class="custom-control-input" id="honeyToggle" checked>
@@ -189,7 +203,8 @@ get_header();
 							<label class="custom-control-label" for="honeyToggle"><?php _e('Honey'); ?></label>
 						
 						</div>
-
+	
+	<!--
 						<div class="custom-control custom-switch mb-1">
 						
 							<input type="checkbox" class="custom-control-input" id="horseToggle" checked>
@@ -197,7 +212,8 @@ get_header();
 							<label class="custom-control-label" for="horseToggle"><?php _e('Horse'); ?></label>
 						
 						</div>
-
+	-->
+	
 						<div class="custom-control custom-switch mb-1">
 						
 							<input type="checkbox" class="custom-control-input" id="ice_creamToggle" checked>
@@ -205,7 +221,7 @@ get_header();
 							<label class="custom-control-label" for="ice_creamToggle"><?php _e('Ice Cream'); ?></label>
 						
 						</div>
-
+	
 						<div class="custom-control custom-switch mb-1">
 						
 							<input type="checkbox" class="custom-control-input" id="mapleToggle" checked>
@@ -213,6 +229,7 @@ get_header();
 							<label class="custom-control-label" for="mapleToggle"><?php _e('Maple'); ?></label>
 						
 						</div>
+	<!--
 						
 						<div class="custom-control custom-switch mb-1">
 						
@@ -221,7 +238,7 @@ get_header();
 							<label class="custom-control-label" for="peasToggle"><?php _e('Peas'); ?></label>
 						
 						</div>
-
+	
 						<div class="custom-control custom-switch mb-1">
 						
 							<input type="checkbox" class="custom-control-input" id="pigToggle" checked>
@@ -229,7 +246,7 @@ get_header();
 							<label class="custom-control-label" for="pigToggle"><?php _e('Pigs'); ?></label>
 						
 						</div>
-
+	
 						<div class="custom-control custom-switch mb-1">
 						
 							<input type="checkbox" class="custom-control-input" id="potatoesToggle" checked>
@@ -237,7 +254,7 @@ get_header();
 							<label class="custom-control-label" for="potatoesToggle"><?php _e('Potatoes'); ?></label>
 						
 						</div>
-
+	
 						<div class="custom-control custom-switch mb-1">
 						
 							<input type="checkbox" class="custom-control-input" id="sheepToggle" checked>
@@ -252,7 +269,8 @@ get_header();
 							<label class="custom-control-label" for="soybeansToggle"><?php _e('Soybeans'); ?></label>
 						
 						</div>
-
+	-->
+	
 						<div class="custom-control custom-switch mb-1">
 						
 							<input type="checkbox" class="custom-control-input" id="timberToggle" checked>
@@ -265,34 +283,36 @@ get_header();
 											
 				</div>
 				
-			</div>
+			</nav>
 			
 		</div>
 		
-		<div class="col-lg-10">
-			
-			<div id="map-full" class="svg-wrap my-3">
-			
-				<svg version="1.2" baseProfile="tiny" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 430.9 334.9" overflow="visible" xml:space="preserve">
-					
-					<?php get_template_part( 'parts/content', 'regions' ); ?>
-					
-					<?php get_template_part( 'parts/content', 'counties' ); ?>
-					
-					<?php get_template_part( 'parts/content', 'topo' ); ?>
-					
-					<?php get_template_part( 'parts/content', 'full-icons' ); ?>
-					
-				</svg>
-
-			</div>
-			
-		</div>
-			
 	</div>
 	
-</div>
+	<div class="d-flex flex-grow-1">
+		
+		<div id="map-full" class="svg-wrap w-100">
+						
+			<svg version="1.2" baseProfile="tiny" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 463.9889221 369.0535583" overflow="visible" xml:space="preserve">
 
+				<?php get_template_part( 'parts/content', 'background' ); ?>
+				
+				<?php get_template_part( 'parts/content', 'regions' ); ?>	
+				
+				<?php get_template_part( 'parts/content', 'counties' ); ?>
+				
+				<?php get_template_part( 'parts/content', 'topo' ); ?>				
+				
+				<?php get_template_part( 'parts/content', 'full-icons' ); ?>
+				
+			</svg>
+
+		</div>
+		
+	</div>
+		
+</div>
+			
 <div class="bg-secondary py-5">
 	
 	<div class="container">

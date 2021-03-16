@@ -137,17 +137,21 @@ jQuery( document ).ready( function( $ ) {
 			$( '#beefToggle' ).prop( 'checked', true );
 			$( '#map_full_beef_icons').show( 'slow' );			
 
+/*
 			$( '#cabbageToggle' ).prop( 'checked', true );
 			$( '#map_full_cabbage_icons').show( 'slow' );		
 
 			$( '#cheeseToggle' ).prop( 'checked', true );
 			$( '#map_full_cheese_icons').show( 'slow' );		
+*/
 
 			$( '#cherryToggle' ).prop( 'checked', true );
 			$( '#map_full_cherry_icons').show( 'slow' );		
 				
+/*
 			$( '#chickenToggle' ).prop( 'checked', true );
 			$( '#map_full_chicken_icons').show( 'slow' );		
+*/
 
 			$( '#christmas_treeToggle' ).prop( 'checked', true );
 			$( '#map_full_christmas_tree_icons').show( 'slow' );						
@@ -161,32 +165,37 @@ jQuery( document ).ready( function( $ ) {
 			$( '#dairy_cowToggle' ).prop( 'checked', true );
 			$( '#map_full_dairy_cow_icons').show( 'slow' );	
 
+/*
 			$( '#dairy_productionToggle' ).prop( 'checked', true );
 			$( '#map_full_dairy_production_icons').show( 'slow' );	
 
 			$( '#grainsToggle' ).prop( 'checked', true );
 			$( '#map_full_grains_icons').show( 'slow' );	
+*/
 
 			$( '#grapesToggle' ).prop( 'checked', true );
 			$( '#map_full_grapes_icons').show( 'slow' );	
 
+/*
 			$( '#beansToggle' ).prop( 'checked', true );
 			$( '#map_full_beans_icons').show( 'slow' );	
+*/
 			
 			$( '#greenhouseToggle' ).prop( 'checked', true );
 			$( '#map_full_greenhouse_icons').show( 'slow' );	
 
+/*
 			$( '#hayToggle' ).prop( 'checked', true );
 			$( '#map_full_hay_icons').show( 'slow' );	
+*/
 			
 			$( '#honeyToggle' ).prop( 'checked', true );
 			$( '#map_full_honey_icons').show( 'slow' );	
-					
-			$( '#honeyToggle' ).prop( 'checked', true );
-			$( '#map_full_honey_icons').show( 'slow' );	
 
+/*
 			$( '#horseToggle' ).prop( 'checked', true );
 			$( '#map_full_horse_icons').show( 'slow' );	
+*/
 
 			$( '#ice_creamToggle' ).prop( 'checked', true );
 			$( '#map_full_ice_cream_icons').show( 'slow' );	
@@ -194,6 +203,7 @@ jQuery( document ).ready( function( $ ) {
 			$( '#mapleToggle' ).prop( 'checked', true );
 			$( '#map_full_maple_icons').show( 'slow' );	
 
+/*
 			$( '#peasToggle' ).prop( 'checked', true );
 			$( '#map_full_peas_icons').show( 'slow' );	
 
@@ -208,6 +218,7 @@ jQuery( document ).ready( function( $ ) {
 
 			$( '#soybeansToggle' ).prop( 'checked', true );
 			$( '#map_full_soybeans_icons').show( 'slow' );	
+*/
 
 			$( '#timberToggle' ).prop( 'checked', true );
 			$( '#map_full_timber_icons').show( 'slow' );	
@@ -221,17 +232,21 @@ jQuery( document ).ready( function( $ ) {
 			$( '#beefToggle' ).prop( 'checked', false );
 			$( '#map_full_beef_icons').hide( 'slow' );	
 			
+/*
 			$( '#cabbageToggle' ).prop( 'checked', false );
 			$( '#map_full_cabbage_icons').hide( 'slow' );	
 			
 			$( '#cheeseToggle' ).prop( 'checked', false );
 			$( '#map_full_cheese_icons').hide( 'slow' );		
+*/
 
 			$( '#cherryToggle' ).prop( 'checked', false );
 			$( '#map_full_cherry_icons').hide( 'slow' );		
 		
+/*
 			$( '#chickenToggle' ).prop( 'checked', false );
 			$( '#map_full_chicken_icons').hide( 'slow' );		
+*/
 
 			$( '#christmas_treeToggle' ).prop( 'checked', false );
 			$( '#map_full_christmas_tree_icons').hide( 'slow' );						
@@ -245,29 +260,37 @@ jQuery( document ).ready( function( $ ) {
 			$( '#dairy_cowToggle' ).prop( 'checked', false );
 			$( '#map_full_dairy_cow_icons').hide( 'slow' );	
 
+/*
 			$( '#dairy_productionToggle' ).prop( 'checked', false );
 			$( '#map_full_dairy_production_icons').hide( 'slow' );	
 			
 			$( '#grainsToggle' ).prop( 'checked', false );
 			$( '#map_full_grains_icons').hide( 'slow' );	
+*/
 
 			$( '#grapesToggle' ).prop( 'checked', false );
 			$( '#map_full_grapes_icons').hide( 'slow' );	
 					
+/*
 			$( '#beansToggle' ).prop( 'checked', false );
 			$( '#map_full_beans_icons').hide( 'slow' );	
+*/
 			
 			$( '#greenhouseToggle' ).prop( 'checked', false );
 			$( '#map_full_greenhouse_icons').hide( 'slow' );	
 
+/*
 			$( '#hayToggle' ).prop( 'checked', false );
 			$( '#map_full_hay_icons').hide( 'slow' );	
+*/
 
 			$( '#honeyToggle' ).prop( 'checked', false );
 			$( '#map_full_honey_icons').hide( 'slow' );	
 			
+/*
 			$( '#horseToggle' ).prop( 'checked', false );
 			$( '#map_full_horse_icons').hide( 'slow' );	
+*/
 
 			$( '#ice_creamToggle' ).prop( 'checked', false );
 			$( '#map_full_ice_cream_icons').hide( 'slow' );	
@@ -275,6 +298,7 @@ jQuery( document ).ready( function( $ ) {
 			$( '#mapleToggle' ).prop( 'checked', false );
 			$( '#map_full_maple_icons').hide( 'slow' );	
 
+/*
 			$( '#peasToggle' ).prop( 'checked', false );
 			$( '#map_full_peas_icons').hide( 'slow' );	
 
@@ -289,6 +313,7 @@ jQuery( document ).ready( function( $ ) {
 
 			$( '#soybeansToggle' ).prop( 'checked', false );
 			$( '#map_full_soybeans_icons').hide( 'slow' );	
+*/
 
 			$( '#timberToggle' ).prop( 'checked', false );
 			$( '#map_full_timber_icons').hide( 'slow' );	
