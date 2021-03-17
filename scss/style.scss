@@ -3,10 +3,10 @@ Theme Name: NY Ag in the Classroom Map
 Version: 1.0
 */
 * {
-	-webkit-transition: fill 250ms ease-in-out;
-	-moz-transition: fill 250ms ease-in-out;
-	-o-transition: fill 250ms ease-in-out;
-	transition: fill 250ms ease-in-out;	
+	-webkit-transition: fill 150ms ease-in-out;
+	-moz-transition: fill 150ms ease-in-out;
+	-o-transition: fill 150ms ease-in-out;
+	transition: fill 150ms ease-in-out;	
 }
 html {
   scroll-behavior: smooth;
@@ -42,7 +42,21 @@ html {
 	font-size: 17px;
 	text-decoration: underline;
 }
-
+.pop:hover, .pop:focus {
+	outline: none;
+}
+.pop:hover polygon, .pop:hover #Seneca_Fill {
+	outline: none;
+	fill: #ccc;
+	cursor: pointer;
+	-webkit-transition: fill 115ms ease-in-out;
+	-moz-transition: fill 115ms ease-in-out;
+	-o-transition: fill 115ms ease-in-out;
+	transition: fill 115ms ease-in-out;	
+}
+.pop:focus polygon {
+	fill: #ccc;
+}
 @media (min-width: 1200px) {
 	.container, .container-lg, .container-md, .container-sm, .container-xl {
 	    max-width: 1340px !important;

@@ -339,4 +339,28 @@ get_header();
 		
 </div>
 
+<div class="py-5">
+	
+	<?php $data = array ( 'region' => 'finger_lake' ); ?>
+	
+	<?php get_template_part( 'parts/content', 'region', $data ); ?>
+		
+</div>
+
+<div class="py-5">
+	
+	<?php $data = array ( 'region' => 'ontario_plains' ); ?>
+	
+	<?php get_template_part( 'parts/content', 'region', $data ); ?>
+		
+</div>
+
+<div class="py-5">
+	
+	<?php $data = array ( 'region' => 'saint_lawrence_seaway_and_champlain_valley' ); ?>
+	
+	<?php get_template_part( 'parts/content', 'region', $data ); ?>
+		
+</div>
+
 <?php get_footer(); ?>
