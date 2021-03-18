@@ -330,6 +330,13 @@ get_header();
 	</div>
 	
 </div>
+<div class="py-5">
+	
+	<?php $data = array ( 'region' => 'adirondacks_and_tug_hill_plateau' ); ?>
+	
+	<?php get_template_part( 'parts/content', 'region', $data ); ?>
+		
+</div>
 
 <div class="py-5">
 	

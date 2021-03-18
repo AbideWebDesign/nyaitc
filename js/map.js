@@ -12,45 +12,17 @@ jQuery( document ).ready( function( $ ) {
 		
 	} );
 	
-	$( '#Catskill' ).hover( 
-	
-		function() {
-	
-			$( '#Catskill' ).css( { fill: '#BA586D' } ).fadeIn( 5000 );
-			
-		}, function() {
+	$( '#Regions .region-wrap' ).click( function () {
 		
-			$( '#Catskill' ).css( { fill: '#DD667A' } ).fadeIn( 5000 );
+		var region = 'region-' + $( this ).attr( 'id' );
+
+		$( 'html, body' ).animate( {	
 			
-		}
-	
-	);
-	
-	$( '#Catskill' ).click( function() {
-	
-		$( 'html, body' ).animate( {
-			
-			scrollTop: $( '#region-catskill' ).offset().top
+			scrollTop: $( '#' + region.toLowerCase() ).offset().top - 100
 		
-		}, 800 );
+		}, 900 );
 		
 	} );
-	
-/*
-	$( '#catskill-region #Greene' ).hover(
-		
-		function() {
-			
-			$('#greene-pop').popover('show');		
-			
-		}, function() {
-			
-// 			$('#greene-pop').popover('hide');
-			
-		}
-		
-	);
-*/
 	
 	// Map Type Toggle
 	$( 'input[type=radio][name=mapRadio]' ).change( function() {
