@@ -313,7 +313,7 @@ get_header();
 		
 </div>
 			
-<div class="bg-secondary py-5">
+<div class="bg-red py-5">
 	
 	<div class="container">
 		
@@ -330,44 +330,49 @@ get_header();
 	</div>
 	
 </div>
-<div class="py-5">
-	
-	<?php $data = array ( 'region' => 'adirondacks_and_tug_hill_plateau' ); ?>
-	
-	<?php get_template_part( 'parts/content', 'region', $data ); ?>
-		
-</div>
 
-<div class="py-5">
+<div class="regions-wrap">
 	
-	<?php $data = array ( 'region' => 'catskill' ); ?>
-	
-	<?php get_template_part( 'parts/content', 'region', $data ); ?>
+	<div class="region">
 		
-</div>
-
-<div class="py-5">
-	
-	<?php $data = array ( 'region' => 'finger_lake' ); ?>
-	
-	<?php get_template_part( 'parts/content', 'region', $data ); ?>
+		<?php $data = array ( 'region' => 'adirondacks_and_tug_hill_plateau' ); ?>
 		
-</div>
-
-<div class="py-5">
+		<?php get_template_part( 'parts/content', 'region', $data ); ?>
+			
+	</div>
 	
-	<?php $data = array ( 'region' => 'ontario_plains' ); ?>
-	
-	<?php get_template_part( 'parts/content', 'region', $data ); ?>
+	<div class="region">
 		
-</div>
-
-<div class="py-5">
-	
-	<?php $data = array ( 'region' => 'saint_lawrence_seaway_and_champlain_valley' ); ?>
-	
-	<?php get_template_part( 'parts/content', 'region', $data ); ?>
+		<?php $data = array ( 'region' => 'catskill' ); ?>
 		
+		<?php get_template_part( 'parts/content', 'region', $data ); ?>
+			
+	</div>
+	
+	<div class="region">
+		
+		<?php $data = array ( 'region' => 'finger_lake' ); ?>
+		
+		<?php get_template_part( 'parts/content', 'region', $data ); ?>
+			
+	</div>
+	
+	<div class="region">
+		
+		<?php $data = array ( 'region' => 'ontario_plains' ); ?>
+		
+		<?php get_template_part( 'parts/content', 'region', $data ); ?>
+			
+	</div>
+	
+	<div class="region">
+		
+		<?php $data = array ( 'region' => 'saint_lawrence_seaway_and_champlain_valley' ); ?>
+		
+		<?php get_template_part( 'parts/content', 'region', $data ); ?>
+			
+	</div>
+	
 </div>
 
 <?php get_footer(); ?>

@@ -22,11 +22,11 @@
 			
 			<div class="col-12 border-bottom pt-4">
 				
-				<p class="lead mb-0"><?php the_field($region); ?></p>
+				<div class="lead"><?php the_field($region); ?></div>
 				
 			</div>
 			
-			<div class="col-12 pt-4">
+			<div class="col-12 pt-5">
 									
 				<?php echo get_template_part('regions/map', $region); ?>
 									
@@ -40,7 +40,7 @@
 			
 			<div class="col-xl-4 align-self-stretch border-right pt-4">
 				
-				<p class="lead mb-0"><?php the_field($region); ?></p>
+				<div class="lead"><?php the_field($region); ?></div>
 				
 			</div>
 			

@@ -37,6 +37,37 @@ html {
 #map-full {
 	background-color: #AFAFAE;
 }
+.bg-red {
+	background-color: #C72632 !important;
+}
+.text-primary {
+	color: #C72632 !important;
+}
+h2 {
+	font-size: 45px;
+	text-transform: uppercase;
+	font-weight: bold;
+	margin-bottom: 0;
+}
+h3 {
+	font-size: 34px;
+	color: #C72632;
+	font-weight: bold;
+}
+.lead p {
+	font-size: 17px;
+	line-height: 30px;
+	font-weight: normal;
+	margin-bottom: 2em;
+}
+.regions-wrap {
+	.region {
+		padding: 6em 0;
+	}
+	.region:nth-child(even) {
+		background-color: #f7f7f7;
+	}
+}
 .link-alt {
 	color: #aaa;
 	font-size: 17px;
@@ -56,6 +87,12 @@ html {
 }
 .pop:focus polygon {
 	fill: #ccc;
+}
+.modal-body {
+	h3 {
+		padding-bottom: .5em;
+		border-bottom: 1px solid #dee2e6;
+	}
 }
 @media (min-width: 1200px) {
 	.container, .container-lg, .container-md, .container-sm, .container-xl {
