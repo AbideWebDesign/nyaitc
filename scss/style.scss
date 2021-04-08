@@ -48,6 +48,10 @@ h2 {
 	text-transform: uppercase;
 	font-weight: bold;
 	margin-bottom: 0;
+	
+	@media (max-width: 576px)  {
+		font-size: 30px;
+	}
 }
 h3 {
 	font-size: 34px;
@@ -76,7 +80,7 @@ h3 {
 .pop:hover, .pop:focus {
 	outline: none;
 }
-.pop:hover polygon, .pop:hover #Seneca_Fill, #Regions path:hover, #Regions polygon:hover  {
+.pop:hover polygon, .pop:hover .fill, .pop:hover #Seneca_Fill, #Regions path:hover, #Regions polygon:hover  {
 	outline: none;
 	fill: #ccc;
 	cursor: pointer;

@@ -20,11 +20,12 @@ jQuery( document ).ready( function( $ ) {
 			
 			scrollTop: $( '#' + region.toLowerCase() ).offset().top - 100
 		
-		}, 900 );
+		}, 300 );
 		
 	} );
 	
 	// Map Type Toggle
+	
 	$( 'input[type=radio][name=mapRadio]' ).change( function() {
 	
 		if ( this.value == 'regions' ) {

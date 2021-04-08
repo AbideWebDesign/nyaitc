@@ -351,7 +351,39 @@ get_header();
 	
 	<div class="region">
 		
+		<?php $data = array ( 'region' => 'central_new_york_and_mohawk' ); ?>
+		
+		<?php get_template_part( 'parts/content', 'region', $data ); ?>
+			
+	</div>
+	
+	<div class="region">
+		
 		<?php $data = array ( 'region' => 'finger_lake' ); ?>
+		
+		<?php get_template_part( 'parts/content', 'region', $data ); ?>
+			
+	</div>
+
+	<div class="region">
+		
+		<?php $data = array ( 'region' => 'hudson_valley' ); ?>
+		
+		<?php get_template_part( 'parts/content', 'region', $data ); ?>
+			
+	</div>
+
+	<div class="region">
+		
+		<?php $data = array ( 'region' => 'long_island' ); ?>
+		
+		<?php get_template_part( 'parts/content', 'region', $data ); ?>
+			
+	</div>
+
+	<div class="region">
+		
+		<?php $data = array ( 'region' => 'new_york_city' ); ?>
 		
 		<?php get_template_part( 'parts/content', 'region', $data ); ?>
 			
@@ -368,6 +400,22 @@ get_header();
 	<div class="region">
 		
 		<?php $data = array ( 'region' => 'saint_lawrence_seaway_and_champlain_valley' ); ?>
+		
+		<?php get_template_part( 'parts/content', 'region', $data ); ?>
+			
+	</div>
+	
+	<div class="region">
+		
+		<?php $data = array ( 'region' => 'southern_tier' ); ?>
+		
+		<?php get_template_part( 'parts/content', 'region', $data ); ?>
+			
+	</div>
+	
+	<div class="region">
+		
+		<?php $data = array ( 'region' => 'western' ); ?>
 		
 		<?php get_template_part( 'parts/content', 'region', $data ); ?>
 			
