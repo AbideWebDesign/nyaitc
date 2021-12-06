@@ -18,17 +18,15 @@
 	<link rel="icon shortcut" href="<?php the_field('fav_icon', 'options'); ?>" type="image/png" />
 	<link rel="profile" href="https://gmpg.org/xfn/11">
 		
-<!--
-	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-37648780-1"></script>
+	<script async src="https://www.googletagmanager.com/gtag/js?id=G-0RTWPE9ZXT"></script>
 	
 	<script>
 		window.dataLayer = window.dataLayer || [];
 		function gtag(){dataLayer.push(arguments);}
 		gtag('js', new Date());
 		
-		gtag('config', 'UA-71986030-1');
+		gtag('config', 'G-0RTWPE9ZXT');
 	</script>
--->
 	
 	<link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900" rel="stylesheet">
 
