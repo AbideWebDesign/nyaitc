@@ -213,6 +213,16 @@ function admin_bar_style_override() {
 			.acf-actions {
 				text-align: left;
 			}
+			#duplicate-post-notice, .acf-to-rest-api-donation-notice, #directory-categorydiv, .ac-message, #ac-pro-version, #direct-feedback, .installer-plugin-update-tr, .plugins .dashicons, .shortpixel-notice, #emr-news, .wrap.emr_upload_form .option-flex-wrapper, .emr_upload_form #message, .user-syntax-highlighting-wrap {
+				display: none !important;
+			}
+			form#your-profile > h3, form#your-profile .user-profile-picture, form#your-profile .user-description-wrap, form#your-profile .user-display-name-wrap, form#your-profile .user-nickname-wrap, form#your-profile .show-admin-bar, .user-comment-shortcuts-wrap, form#your-profile .yoast-settings, form#your-profile .user-rich-editing-wrap, form#your-profile .user-admin-color-wrap, form#your-profile .user-url-wrap, form#your-profile .user-facebook-wrap, form#your-profile .user-instagram-wrap, form#your-profile .user-linkedin-wrap, form#your-profile .user-myspace-wrap, form#your-profile .user-pinterest-wrap, form#your-profile .user-soundcloud-wrap, form#your-profile .user-tumblr-wrap, form#your-profile .user-twitter-wrap, form#your-profile .user-youtube-wrap, form#your-profile .user-wikipedia-wrap  {
+				display: none !important;
+			}
+			#your-profile h2 {
+				display: none !important;
+			}
+
 	<?php
 		
 	}
@@ -313,6 +323,53 @@ function redirect_after_logout() {
 	exit();
 	
 }
+
+function new_user_notifications( $user_id, $notify = 'user' ) {
+	
+	if ( empty( $notify ) || $notify == 'admin' ) {
+	
+	  return;
+	
+	} elseif ( $notify == 'both' ) { //Only send the new user their email, not the admin
+
+		$notify = 'user';
+	
+	}
+	
+	wp_send_new_user_notifications( $user_id, $notify );
+
+}
+
+/*
+ * Disable Update Emails
+ */
+add_filter( 'auto_core_update_send_email', 'disable_auto_update_emails', 10, 4 );
+  
+function disable_auto_update_emails( $send, $type, $core_update, $result ) {
+
+	if ( ! empty( $type ) && $type == 'success' ) {
+
+		return false;
+
+	}
+
+	return true;
+
+}
+ 
+remove_action( 'register_new_user', 'wp_send_new_user_notifications' );
+
+remove_action( 'edit_user_created_user', 'wp_send_new_user_notifications', 10, 2 );
+
+add_action( 'register_new_user', 'new_user_notifications' );
+
+add_action( 'edit_user_created_user', 'new_user_notifications', 10, 2 );
+
+add_filter( 'big_image_size_threshold', '__return_false' );
+
+add_filter( 'auto_plugin_update_send_email', '__return_false' );
+
+add_filter( 'auto_theme_update_send_email', '__return_false' );
 
 
 /**
