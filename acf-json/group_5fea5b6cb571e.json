@@ -3,43 +3,6 @@
     "title": "Map Page",
     "fields": [
         {
-            "key": "field_602d472c32e5a",
-            "label": "Counties",
-            "name": "",
-            "type": "tab",
-            "instructions": "",
-            "required": 0,
-            "conditional_logic": 0,
-            "wrapper": {
-                "width": "",
-                "class": "",
-                "id": ""
-            },
-            "placement": "left",
-            "endpoint": 0
-        },
-        {
-            "key": "field_602d4752d1aaa",
-            "label": "Counties",
-            "name": "counties",
-            "type": "clone",
-            "instructions": "",
-            "required": 0,
-            "conditional_logic": 0,
-            "wrapper": {
-                "width": "",
-                "class": "",
-                "id": ""
-            },
-            "clone": [
-                "group_602d46992cf77"
-            ],
-            "display": "seamless",
-            "layout": "block",
-            "prefix_label": 0,
-            "prefix_name": 0
-        },
-        {
             "key": "field_5ff36859e0149",
             "label": "Regions",
             "name": "",
@@ -70,6 +33,43 @@
             },
             "clone": [
                 "group_5ff36640351ac"
+            ],
+            "display": "seamless",
+            "layout": "block",
+            "prefix_label": 0,
+            "prefix_name": 0
+        },
+        {
+            "key": "field_602d472c32e5a",
+            "label": "Counties",
+            "name": "",
+            "type": "tab",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "placement": "left",
+            "endpoint": 0
+        },
+        {
+            "key": "field_602d4752d1aaa",
+            "label": "Counties",
+            "name": "counties",
+            "type": "clone",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "clone": [
+                "group_602d46992cf77"
             ],
             "display": "seamless",
             "layout": "block",
@@ -628,5 +628,6 @@
     ],
     "active": true,
     "description": "",
-    "modified": 1637362075
+    "show_in_rest": 0,
+    "modified": 1638818571
 }
