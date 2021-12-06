@@ -2,7 +2,7 @@
 
 <?php $region = $data['region']; ?>
 
-<?php $landscape = array( 'ontario_plains', 'finger_lake', 'central_new_york_and_mohawk', 'southern_tier' ); ?>
+<?php $landscape = array( 'ontario_plains', 'finger_lakes', 'central_new_york_and_mohawk', 'southern_tier' ); ?>
 
 <?php $small = array( 'new_york_city', 'hudson_valley', 'western' ); ?>
 	
@@ -30,7 +30,7 @@
 			
 			<div class="col-12 pt-5">
 									
-				<?php echo get_template_part('regions/map', $region); ?>
+				<?php echo get_template_part( 'regions/map', $region ); ?>
 									
 			</div>
 			
@@ -50,7 +50,7 @@
 						
 				<div class="p-4">
 								
-					<?php echo get_template_part('regions/map', $region); ?>
+					<?php echo get_template_part( 'regions/map', $region ); ?>
 				
 				</div>
 									
@@ -72,7 +72,7 @@
 				
 				<div class="p-4">
 					
-					<?php echo get_template_part('regions/map', $region); ?>
+					<?php echo get_template_part( 'regions/map', $region ); ?>
 					
 				</div>
 				

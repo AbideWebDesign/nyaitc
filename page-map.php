@@ -1,4 +1,6 @@
-<?php /* Template Name: New York Map */ 
+<?php 
+
+/* Template Name: New York Map */ 
 
 get_header();
 
@@ -30,7 +32,7 @@ get_header();
 						
 							<input type="radio" id="mapRadio1" name="mapRadio" value="regions" class="custom-control-input" checked >
 							
-							<label class="custom-control-label selected" for="mapRadio1"><?php _e('Regions'); ?></label>
+							<label class="custom-control-label" for="mapRadio1"><?php _e('Regions'); ?></label>
 						
 						</div>
 						
@@ -140,7 +142,6 @@ get_header();
 						
 						</div>
 	
-	<!--
 						<div class="custom-control custom-switch mb-1">
 						
 							<input type="checkbox" class="custom-control-input" id="dairy_productionToggle" checked>
@@ -148,9 +149,8 @@ get_header();
 							<label class="custom-control-label" for="dairy_productionToggle"><?php _e('Dairy Production'); ?></label>
 						
 						</div>
-	-->
 	
-	<!--
+	
 						<div class="custom-control custom-switch mb-1">
 						
 							<input type="checkbox" class="custom-control-input" id="grainsToggle" checked>
@@ -158,7 +158,7 @@ get_header();
 							<label class="custom-control-label" for="grainsToggle"><?php _e('Grains'); ?></label>
 						
 						</div>
-	-->
+	
 	
 						<div class="custom-control custom-switch mb-1">
 						
@@ -168,7 +168,6 @@ get_header();
 						
 						</div>
 	
-	<!--
 						<div class="custom-control custom-switch mb-1">
 						
 							<input type="checkbox" class="custom-control-input" id="beansToggle" checked>
@@ -176,7 +175,7 @@ get_header();
 							<label class="custom-control-label" for="beansToggle"><?php _e('Beans'); ?></label>
 						
 						</div>
-	-->
+	
 	
 						<div class="custom-control custom-switch mb-1">
 						
@@ -186,7 +185,6 @@ get_header();
 						
 						</div>
 	
-	<!--
 						<div class="custom-control custom-switch mb-1">
 						
 							<input type="checkbox" class="custom-control-input" id="hayToggle" checked>
@@ -194,7 +192,7 @@ get_header();
 							<label class="custom-control-label" for="hayToggle"><?php _e('Hay'); ?></label>
 						
 						</div>
-	-->
+	
 	
 						<div class="custom-control custom-switch mb-1">
 						
@@ -204,15 +202,14 @@ get_header();
 						
 						</div>
 	
-	<!--
-						<div class="custom-control custom-switch mb-1">
+							<div class="custom-control custom-switch mb-1">
 						
 							<input type="checkbox" class="custom-control-input" id="horseToggle" checked>
 						
-							<label class="custom-control-label" for="horseToggle"><?php _e('Horse'); ?></label>
+							<label class="custom-control-label" for="horseToggle"><?php _e('Equine'); ?></label>
 						
 						</div>
-	-->
+	
 	
 						<div class="custom-control custom-switch mb-1">
 						
@@ -229,8 +226,7 @@ get_header();
 							<label class="custom-control-label" for="mapleToggle"><?php _e('Maple'); ?></label>
 						
 						</div>
-	<!--
-						
+							
 						<div class="custom-control custom-switch mb-1">
 						
 							<input type="checkbox" class="custom-control-input" id="peasToggle" checked>
@@ -269,7 +265,6 @@ get_header();
 							<label class="custom-control-label" for="soybeansToggle"><?php _e('Soybeans'); ?></label>
 						
 						</div>
-	-->
 	
 						<div class="custom-control custom-switch mb-1">
 						
@@ -295,15 +290,7 @@ get_header();
 						
 			<svg version="1.2" baseProfile="tiny" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 463.9889221 369.0535583" overflow="visible" xml:space="preserve">
 
-				<?php get_template_part( 'parts/content', 'background' ); ?>
-				
-				<?php get_template_part( 'parts/content', 'regions' ); ?>	
-				
-				<?php get_template_part( 'parts/content', 'counties' ); ?>
-				
-				<?php get_template_part( 'parts/content', 'topo' ); ?>				
-				
-				<?php get_template_part( 'parts/content', 'full-icons' ); ?>
+				<?php get_template_part( 'parts/content', 'full-map' ); ?>
 				
 			</svg>
 
@@ -359,7 +346,7 @@ get_header();
 	
 	<div class="region">
 		
-		<?php $data = array ( 'region' => 'finger_lake' ); ?>
+		<?php $data = array ( 'region' => 'finger_lakes' ); ?>
 		
 		<?php get_template_part( 'parts/content', 'region', $data ); ?>
 			

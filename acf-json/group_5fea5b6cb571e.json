@@ -135,27 +135,6 @@
             "prefix_name": 1
         },
         {
-            "key": "field_5fea5b731c8d1",
-            "label": "Cabbage",
-            "name": "cabbage",
-            "type": "clone",
-            "instructions": "",
-            "required": 0,
-            "conditional_logic": 0,
-            "wrapper": {
-                "width": "",
-                "class": "",
-                "id": ""
-            },
-            "clone": [
-                "group_5fea56b6b01ce"
-            ],
-            "display": "seamless",
-            "layout": "block",
-            "prefix_label": 1,
-            "prefix_name": 1
-        },
-        {
             "key": "field_5fea5bf3dbeb9",
             "label": "Cheese",
             "name": "cheese",
@@ -180,27 +159,6 @@
             "key": "field_5fea5c03dbebb",
             "label": "Cherries",
             "name": "cherries",
-            "type": "clone",
-            "instructions": "",
-            "required": 0,
-            "conditional_logic": 0,
-            "wrapper": {
-                "width": "",
-                "class": "",
-                "id": ""
-            },
-            "clone": [
-                "group_5fea56b6b01ce"
-            ],
-            "display": "seamless",
-            "layout": "block",
-            "prefix_label": 1,
-            "prefix_name": 1
-        },
-        {
-            "key": "field_5fea5c18dbebd",
-            "label": "Chicken",
-            "name": "chicken",
             "type": "clone",
             "instructions": "",
             "required": 0,
@@ -644,7 +602,7 @@
             {
                 "param": "page_template",
                 "operator": "==",
-                "value": "page-map-2020.php"
+                "value": "page-map.php"
             }
         ]
     ],
@@ -663,7 +621,6 @@
         "slug",
         "author",
         "format",
-        "page_attributes",
         "featured_image",
         "categories",
         "tags",
@@ -671,5 +628,5 @@
     ],
     "active": true,
     "description": "",
-    "modified": 1616088794
+    "modified": 1637362075
 }

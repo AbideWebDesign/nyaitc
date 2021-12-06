@@ -36,6 +36,19 @@ html {
 }
 #map-full {
 	background-color: #AFAFAE;
+	
+}	
+#Regions-2 .region-wrap:hover {
+	outline: none;
+    fill: #ccc;
+    cursor: pointer;
+    -webkit-transition: fill 115ms ease-in-out;
+    -moz-transition: fill 115ms ease-in-out;
+    -o-transition: fill 115ms ease-in-out;
+    transition: fill 115ms ease-in-out;
+}
+#Elevation_Key {
+	display: none;
 }
 .bg-red {
 	background-color: #C72632 !important;
@@ -77,26 +90,18 @@ h3 {
 	font-size: 17px;
 	text-decoration: underline;
 }
-.pop:hover, .pop:focus {
+#Names text {
 	outline: none;
-}
-.pop:hover polygon, .pop:hover .fill, .pop:hover #Seneca_Fill, #Regions path:hover, #Regions polygon:hover  {
-	outline: none;
-	fill: #ccc;
 	cursor: pointer;
-	-webkit-transition: fill 115ms ease-in-out;
-	-moz-transition: fill 115ms ease-in-out;
-	-o-transition: fill 115ms ease-in-out;
-	transition: fill 115ms ease-in-out;	
-}
-.pop:focus polygon {
-	fill: #ccc;
 }
 .modal-body {
 	h3 {
 		padding-bottom: .5em;
 		border-bottom: 1px solid #dee2e6;
 	}
+}
+#modal-image {
+	max-width: 250px;
 }
 @media (min-width: 1200px) {
 	.container, .container-lg, .container-md, .container-sm, .container-xl {

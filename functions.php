@@ -49,8 +49,19 @@ function enqueue_theme_scripts() {
 /**
  * Map Functions
  */
-function get_map_icon_html( $icon_group, $icon_image ) {
+
+function get_map_icon_html( $icon ) {
 	
-	
+	if ( $icon ) {
+						
+		$html = "class='map-icon' data-toggle='modal' data-target='#map-modal' data-description='<h3>" . get_field($icon . '_title') . "</h3>" . get_field($icon . '_icon_description') . "' data-image='" . get_field($icon . '_icon_image') . "'";
 		
+		return $html;
+	
+	} else {
+		
+		return '';
+		
+	}
+	
 }

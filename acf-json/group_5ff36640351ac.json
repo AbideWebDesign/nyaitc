@@ -42,7 +42,7 @@
         },
         {
             "key": "field_5ff3675c62193",
-            "label": "Central New York and Mohawk",
+            "label": "Central New York and Mohawk Valley",
             "name": "central_new_york_and_mohawk",
             "type": "wysiwyg",
             "instructions": "",
@@ -61,8 +61,8 @@
         },
         {
             "key": "field_5ff3676562194",
-            "label": "Finger Lake",
-            "name": "finger_lake",
+            "label": "Finger Lakes",
+            "name": "finger_lakes",
             "type": "wysiwyg",
             "instructions": "",
             "required": 0,
@@ -229,5 +229,5 @@
     "hide_on_screen": "",
     "active": true,
     "description": "",
-    "modified": 1613154997
+    "modified": 1632851499
 }
