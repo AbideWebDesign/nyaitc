@@ -43,14 +43,16 @@ html {
 	background-color: #AFAFAE;
 	
 }	
-#Regions-2 .region-wrap:hover {
-	outline: none;
-    fill: #ccc;
-    cursor: pointer;
-    -webkit-transition: fill 115ms ease-in-out;
-    -moz-transition: fill 115ms ease-in-out;
-    -o-transition: fill 115ms ease-in-out;
-    transition: fill 115ms ease-in-out;
+#Regions-2 {
+	.region-wrap:hover, .region-wrap:hover path, .region-wrap:hover polygon, .region-wrap:hover polyline {
+		outline: none;
+	    fill: #ccc;
+	    cursor: pointer;
+	    -webkit-transition: fill 115ms ease-in-out;
+	    -moz-transition: fill 115ms ease-in-out;
+	    -o-transition: fill 115ms ease-in-out;
+	    transition: fill 115ms ease-in-out;
+	}
 }
 #Elevation_Key {
 	display: none;
