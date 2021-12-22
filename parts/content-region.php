@@ -38,7 +38,7 @@
 		
 	<?php elseif ( in_array( $region, $small ) ): ?>
 	
-		<div class="row">
+		<div class="row justify-content-center">
 			
 			<div class="col-xl-6 align-self-stretch border-right pt-4">
 				
@@ -48,7 +48,7 @@
 			
 			<div class="col-lg-6">
 						
-				<div class="p-4">
+				<div class="p-xl-4">
 								
 					<?php echo get_template_part( 'regions/map', $region ); ?>
 				
@@ -60,7 +60,7 @@
 
 	<?php else: ?>
 	
-		<div class="row justify-content-between">
+		<div class="row justify-content-center justify-content-xl-between">
 			
 			<div class="col-xl-4 align-self-stretch border-right pt-4">
 				
@@ -70,7 +70,7 @@
 			
 			<div class="col-lg-8">
 				
-				<div class="p-4">
+				<div class="p-xl-4">
 					
 					<?php echo get_template_part( 'regions/map', $region ); ?>
 					

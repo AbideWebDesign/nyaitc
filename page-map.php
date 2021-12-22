@@ -6,19 +6,19 @@ get_header();
 
 ?>	
 
-<div class="d-flex flex-column flex-md-row">
+<div class="d-flex flex-column flex-xl-row">
 
 	<div class="align-self-stretch sidebar-wrap">
 		
 		<div class="sidebar h-100">
 			
-			<nav class="navbar navbar-expand-md navbar-light bg-light flex-row flex-md-column">
+			<nav class="navbar navbar-expand-xl navbar-light bg-light flex-row flex-xl-column">
 		
 				<a class="navbar-brand" href="#"><img src="<?php echo get_template_directory_uri(); ?>/img/logo.svg" width="150px;" /></a>
 				
-				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarMobile" aria-controls="navbarMobile" aria-expanded="false" aria-label="Toggle navigation">
+				<button class="navbar-toggler py-2" type="button" data-toggle="collapse" data-target="#navbarMobile" aria-controls="navbarMobile" aria-expanded="false" aria-label="Toggle navigation">
 				
-					<span class="navbar-toggler-icon"></span>
+					<div class="d-flex"><div class="align-self-center mr-1"><i class="fa fa-filter fa-xs"></i></div><div class="align-self-center text-sm font-weight-bold">Filters</div></div>
 					
 				</button>
 			
@@ -284,12 +284,72 @@ get_header();
 		
 	</div>
 	
-	<div class="d-flex flex-grow-1">
+	<div class="d-flex flex-column flex-grow-1">
 		
+		<div class="py-2 px-3 bg-dark d-xl-none">
+				
+				<div class="d-flex justify-content-between">
+					
+					<div class="mr-4">
+						
+						<p class="font-weight-bold text-white mb-0">Empire Agriculture Map</p>
+						
+					</div>
+					
+					<div class="align-self-center">
+						
+						<ul class="list-inline mb-0">
+				
+							<li class="list-inline-item"><a href="https://twitter.com/intent/tweet?url=<?php the_permalink(); ?>&text=" target="_blank" class="text-white"><i class="fab fa-twitter"></i></a></li>
+							
+							<li class="list-inline-item"><a href="https://www.facebook.com/sharer/sharer.php?u=<?php the_permalink(); ?>" target="_blank" class="text-white"><i class="fab fa-facebook"></i></a></li>
+				
+							<li class="list-inline-item"><a href="mailto:?body=<?php the_permalink(); ?>" target="_blank" class="text-white"><i class="fa fa-envelope"></i></a></li>
+						
+							<li class="list-inline-item d-none d-md-inline-block"><button onclick="window.print();" aria-label="Print page" class="btn-plain text-white"><i class="fa fa-print"></i></button></li>
+						
+						</ul>
+
+					</div>
+					
+				</div>
+			
+			</div>
+
 		<div id="map-full" class="svg-wrap w-100">
+			
+			<div class="position-absolute mt-2 ml-3 py-2 px-5 bg-dark shadow d-none d-xl-inline-block">
+				
+				<div class="d-flex">
+					
+					<div class="mr-4">
+						
+						<h1 class="text-lg text-white mb-0">Empire Agriculture Map</h1>
+						
+					</div>
+					
+					<div class="align-self-center">
+						
+						<ul class="list-inline mb-0">
+				
+							<li class="list-inline-item"><a href="https://twitter.com/intent/tweet?url=<?php the_permalink(); ?>&text=" target="_blank" class="text-white"><i class="fab fa-twitter"></i></a></li>
+							
+							<li class="list-inline-item"><a href="https://www.facebook.com/sharer/sharer.php?u=<?php the_permalink(); ?>" target="_blank" class="text-white"><i class="fab fa-facebook"></i></a></li>
+				
+							<li class="list-inline-item"><a href="mailto:?body=<?php the_permalink(); ?>" target="_blank" class="text-white"><i class="fa fa-envelope"></i></a></li>
+						
+							<li class="list-inline-item d-none d-md-inline-block"><button onclick="window.print();" aria-label="Print page" class="btn-plain text-white"><i class="fa fa-print"></i></button></li>
+						
+						</ul>
+
+					</div>
+					
+				</div>
+			
+			</div>
 						
 			<svg version="1.2" baseProfile="tiny" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 463.9889221 369.0535583" overflow="visible" xml:space="preserve">
-
+								
 				<?php get_template_part( 'parts/content', 'full-map' ); ?>
 				
 			</svg>
@@ -300,7 +360,7 @@ get_header();
 		
 </div>
 			
-<div class="bg-red py-5">
+<div class="bg-red py-3 py-lg-5">
 	
 	<div class="container">
 		

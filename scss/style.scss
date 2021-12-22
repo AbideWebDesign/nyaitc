@@ -16,6 +16,14 @@ Text Domain: nyag
 html {
   scroll-behavior: smooth;
 }
+button:focus {
+	outline: none;
+}
+.navbar-light .navbar-toggler {
+	background-color: #C72632;
+	border-color: #C72632;
+	color: white;
+}
 .sidebar {
 	box-shadow: 0 0 20px rgb(0 0 0 / 30%);
 	background-color: #F8F9FA;
@@ -40,9 +48,11 @@ html {
 	}
 }
 #map-full {
-	background-color: #AFAFAE;
-	
+	background-color: #ddd;
 }	
+.border-dark {
+	border-color: #AFAFAE !important;
+}
 #Regions-2 {
 	.region-wrap:hover, .region-wrap:hover path, .region-wrap:hover polygon, .region-wrap:hover polyline {
 		outline: none;
@@ -57,8 +67,20 @@ html {
 #Elevation_Key {
 	display: none;
 }
+.bg-gray {
+	background-color: #ddd;
+}
+.bg-dark {
+	background-color: #1B345D !important;
+}
 .bg-red {
 	background-color: #C72632 !important;
+}
+.btn-plain {
+	padding: 0;
+	border: none;
+	background-color: transparent;
+	cursor: pointer;
 }
 .text-primary {
 	color: #C72632 !important;
@@ -78,6 +100,13 @@ h3 {
 	color: #C72632;
 	font-weight: bold;
 }
+.text-sm {
+	font-size: 16px;
+}
+.text-lg {
+	font-size: 24px;
+	font-weight: bold;
+}
 .lead p {
 	font-size: 17px;
 	line-height: 30px;
@@ -87,6 +116,10 @@ h3 {
 .regions-wrap {
 	.region {
 		padding: 6em 0;
+		
+		@media (max-width: 576px)  {
+			padding: 3em 0;
+		}
 	}
 	.region:nth-child(even) {
 		background-color: #f7f7f7;
