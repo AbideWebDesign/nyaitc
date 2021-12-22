@@ -24,6 +24,8 @@ function enqueue_theme_styles() {
     wp_enqueue_style( 'bootstrap', 'https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css' );
     
 	wp_enqueue_style( 'map-style', get_stylesheet_directory_uri() . '/style.css', wp_get_theme()->get('Version') );
+	
+	wp_enqueue_style( 'map-print-style', get_stylesheet_directory_uri() . '/print-style.css', false, wp_get_theme()->get('Version'), 'print' );
 
 }
 

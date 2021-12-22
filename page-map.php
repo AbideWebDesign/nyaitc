@@ -286,7 +286,7 @@ get_header();
 	
 	<div class="d-flex flex-column flex-grow-1">
 		
-		<div class="py-2 px-3 bg-dark d-xl-none">
+		<div class="py-2 px-3 bg-dark d-xl-none d-print-none">
 				
 				<div class="d-flex justify-content-between">
 					
@@ -360,7 +360,7 @@ get_header();
 		
 </div>
 			
-<div class="bg-red py-3 py-lg-5">
+<div class="bg-red py-3 py-lg-5 d-print-none">
 	
 	<div class="container">
 		

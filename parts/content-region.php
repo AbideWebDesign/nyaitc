@@ -12,7 +12,7 @@
 	
 		<div class="col-12"><h3><?php echo ucwords( str_replace( '_', ' ', $region ) ); ?></h3></div>
 		
-		<div class="col-auto align-self-center"><a class="link-alt" href="#map-full"><?php _e('Back to Full Map'); ?></a></div>
+		<div class="col-auto align-self-center d-print-none"><a class="link-alt" href="#map-full"><?php _e('Back to Full Map'); ?></a></div>
 		
 		<div class="col-12 border-bottom pb-2"></div>
 	
