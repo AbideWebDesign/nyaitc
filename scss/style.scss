@@ -76,6 +76,18 @@ button:focus {
 .bg-red {
 	background-color: #C72632 !important;
 }
+.btn-primary {
+	background-color: #C72632;
+	border-color: #C72632;
+	
+	&:hover, &:active, &:focus {
+		background-color: darken( #C72632, 10 ) !important;
+		border-color: darken( #C72632, 10 ) !important;
+	}
+	&:focus {
+		box-shadow: none !important;
+	}
+}
 .btn-plain {
 	padding: 0;
 	border: none;

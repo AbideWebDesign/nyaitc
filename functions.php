@@ -381,8 +381,24 @@ add_filter( 'auto_theme_update_send_email', '__return_false' );
 function get_map_icon_html( $icon ) {
 	
 	if ( $icon ) {
-						
-		$html = "class='map-icon' data-toggle='modal' data-target='#map-modal' data-description='<h3>" . get_field($icon . '_title') . "</h3>" . get_field($icon . '_icon_description') . "' data-image='" . get_field($icon . '_icon_image') . "'";
+
+		$title = get_field($icon . '_title');
+		
+		$description = get_field($icon . '_icon_description');
+		
+		$image = get_field($icon . '_icon_image'); 
+
+		$link = get_field($icon . '_learn_more_link');
+
+		$link_output = '';
+		
+		if ( $link ) {
+			
+			$link_output = '<div class="mt-2"><a href="' . $link['url'] . '" target="_blank" class="btn btn-primary"><i class="fas fa-external-link-alt text-xs"></i> ' . $link['title'] . '</a></div>';
+			
+		}	
+				
+		$html = "class='map-icon' data-toggle='modal' data-target='#map-modal' data-description='<h3>" . $title . "</h3>" . $description . $link_output . "' data-image='" . $image . "'";
 		
 		return $html;
 	
