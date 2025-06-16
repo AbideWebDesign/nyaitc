@@ -77,21 +77,17 @@ jQuery( document ).ready( function( $ ) {
 			$( '#beefToggle' ).prop( 'checked', true );
 			$( '#beef_cattle').show( 'slow' );			
 
-/*
 			$( '#cabbageToggle' ).prop( 'checked', true );
-			$( '#map_full_cabbage_icons').show( 'slow' );		
-*/
+			$( '#cabbage').show( 'slow' );		
+			
 			$( '#cheeseToggle' ).prop( 'checked', true );
 			$( '#cheese').show( 'slow' );		
 
-
-			$( '#cherryToggle' ).prop( 'checked', true );
-			$( '#cherry').show( 'slow' );		
+			$( '#cherriesToggle' ).prop( 'checked', true );
+			$( '#cherries').show( 'slow' );		
 				
-/*
 			$( '#chickenToggle' ).prop( 'checked', true );
-			$( '#map_full_chicken_icons').show( 'slow' );		
-*/
+			$( '#chicken').show( 'slow' );		
 
 			$( '#christmas_treeToggle' ).prop( 'checked', true );
 			$( '#christmas_tree').show( 'slow' );						
@@ -162,21 +158,17 @@ jQuery( document ).ready( function( $ ) {
 			$( '#beefToggle' ).prop( 'checked', false );
 			$( '#beef_cattle').hide( 'slow' );	
 			
-/*
 			$( '#cabbageToggle' ).prop( 'checked', false );
-			$( '#map_full_cabbage_icons').hide( 'slow' );	
-*/
+			$( '#cabbage').hide( 'slow' );	
 			
 			$( '#cheeseToggle' ).prop( 'checked', false );
 			$( '#cheese').hide( 'slow' );		
 
-			$( '#cherryToggle' ).prop( 'checked', false );
-			$( '#cherry').hide( 'slow' );		
+			$( '#cherriesToggle' ).prop( 'checked', false );
+			$( '#cherries').hide( 'slow' );		
 		
-/*
 			$( '#chickenToggle' ).prop( 'checked', false );
-			$( '#map_full_chicken_icons').hide( 'slow' );		
-*/
+			$( '#chicken').hide( 'slow' );		
 
 			$( '#christmas_treeToggle' ).prop( 'checked', false );
 			$( '#christmas_tree').hide( 'slow' );						
@@ -279,12 +271,12 @@ jQuery( document ).ready( function( $ ) {
 		if ( $( this ).is( ':checked' ) ) {
 		
 			$( '#cabbageToggle' ).prop( 'checked', true );
-			$( '#map_full_cabbage_icons').show( 'slow' );
+			$( '#cabbage').show( 'slow' );
 				
 		} else {
 			
 			$( '#cabbageToggle' ).prop( 'checked', false );
-			$( '#map_full_cabbage_icons').hide( 'slow' );
+			$( '#cabbage').hide( 'slow' );
 			
 		}
 		
@@ -306,17 +298,17 @@ jQuery( document ).ready( function( $ ) {
 		
 	} );
 	
-	$( '#cherryToggle' ).click( function() {
+	$( '#cherriesToggle' ).click( function() {
 	
 		if ( $( this ).is( ':checked' ) ) {
 		
-			$( '#cherryToggle' ).prop( 'checked', true );
-			$( '#cherry').show( 'slow' );
+			$( '#cherriesToggle' ).prop( 'checked', true );
+			$( '#cherries').show( 'slow' );
 				
 		} else {
 			
-			$( '#cherryToggle' ).prop( 'checked', false );
-			$( '#cherry').hide( 'slow' );
+			$( '#cherriesToggle' ).prop( 'checked', false );
+			$( '#cherries').hide( 'slow' );
 			
 		}
 		
@@ -327,12 +319,12 @@ jQuery( document ).ready( function( $ ) {
 		if ( $( this ).is( ':checked' ) ) {
 		
 			$( '#chickenToggle' ).prop( 'checked', true );
-			$( '#map_full_chicken_icons').show( 'slow' );
+			$( '#chicken').show( 'slow' );
 				
 		} else {
 			
 			$( '#chickenToggle' ).prop( 'checked', false );
-			$( '#map_full_chicken_icons').hide( 'slow' );
+			$( '#chicken').hide( 'slow' );
 			
 		}
 		

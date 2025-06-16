@@ -74,7 +74,6 @@ get_header();
 						
 						</div>
 	
-	<!--
 						<div class="custom-control custom-switch mb-1">
 						
 							<input type="checkbox" class="custom-control-input" id="cabbageToggle" checked>
@@ -90,17 +89,16 @@ get_header();
 							<label class="custom-control-label" for="cheeseToggle"><?php _e('Cheese'); ?></label>
 						
 						</div>
-	-->
+	
 	
 						<div class="custom-control custom-switch mb-1">
 						
-							<input type="checkbox" class="custom-control-input" id="cherryToggle" checked>
+							<input type="checkbox" class="custom-control-input" id="cherriesToggle" checked>
 						
-							<label class="custom-control-label" for="cherryToggle"><?php _e('Cherries'); ?></label>
+							<label class="custom-control-label" for="cherriesToggle"><?php _e('Cherries'); ?></label>
 						
 						</div>
 	
-	<!--
 						<div class="custom-control custom-switch mb-1">
 						
 							<input type="checkbox" class="custom-control-input" id="chickenToggle" checked>
@@ -108,7 +106,7 @@ get_header();
 							<label class="custom-control-label" for="chickenToggle"><?php _e('Chicken'); ?></label>
 						
 						</div>
-	-->
+	
 	
 						<div class="custom-control custom-switch mb-1">
 						
@@ -138,7 +136,7 @@ get_header();
 						
 							<input type="checkbox" class="custom-control-input" id="dairy_cowToggle" checked>
 						
-							<label class="custom-control-label" for="dairy_cowToggle"><?php _e('Dairy Cow'); ?></label>
+							<label class="custom-control-label" for="dairy_cowToggle"><?php _e('Dairy Cattle'); ?></label>
 						
 						</div>
 	
@@ -299,9 +297,7 @@ get_header();
 					<div class="align-self-center">
 						
 						<ul class="list-inline mb-0">
-				
-							<li class="list-inline-item"><a href="https://twitter.com/intent/tweet?url=<?php the_permalink(); ?>&text=" target="_blank" class="text-white"><i class="fab fa-twitter"></i></a></li>
-							
+											
 							<li class="list-inline-item"><a href="https://www.facebook.com/sharer/sharer.php?u=<?php the_permalink(); ?>" target="_blank" class="text-white"><i class="fab fa-facebook"></i></a></li>
 				
 							<li class="list-inline-item"><a href="mailto:?body=<?php the_permalink(); ?>" target="_blank" class="text-white"><i class="fa fa-envelope"></i></a></li>
@@ -353,6 +349,12 @@ get_header();
 				<?php get_template_part( 'parts/content', 'full-map' ); ?>
 				
 			</svg>
+			
+			<div class="py-3 bg-light">
+				
+				<div class="text-center text-xs"><em>Data from the <a href="https://www.nass.usda.gov/AgCensus/" target="_blank">2022 NASS Census</a> was used in the creation of the Empire Agriculture Map.</em></div>
+				
+			</div>
 
 		</div>
 		

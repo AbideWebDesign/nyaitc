@@ -1111,7 +1111,7 @@
   </g>
   <g id="Icons">
     <g>
-      <g id="apple">
+      <g id="apple" data-name="apple">
         <a <?php echo get_map_icon_html('apple'); ?>><image id="Apple-2" data-name="Apple" width="343" height="441" transform="translate(58.54383 156.19451) scale(0.01492)" xlink:href="<?php the_field('apple_icon_image'); ?>"/></a>
         <a <?php echo get_map_icon_html('apple'); ?>><image id="Apple-3" data-name="Apple" width="343" height="441" transform="translate(88.10123 141.36613) scale(0.01492)" xlink:href="<?php the_field('apple_icon_image'); ?>"/></a>
         <a <?php echo get_map_icon_html('apple'); ?>><image id="Apple-4" data-name="Apple" width="343" height="441" transform="translate(129.96121 153.05601) scale(0.01492)" xlink:href="<?php the_field('apple_icon_image'); ?>"/></a>
@@ -1139,17 +1139,15 @@
         <a <?php echo get_map_icon_html('beef_cattle'); ?>><image id="beef_cattle-9" data-name="beef cattle" width="2066" height="1277" transform="translate(69.48801 219.21987) scale(0.00476)" xlink:href="<?php the_field('beef_cattle_icon_image'); ?>"/></a>
         <a <?php echo get_map_icon_html('beef_cattle'); ?>><image id="beef_cattle-10" data-name="beef cattle" width="2066" height="1277" transform="translate(28.77783 218.96821) scale(0.00476)" xlink:href="<?php the_field('beef_cattle_icon_image'); ?>"/></a>
       </g>
-<!--
-      <g id="cabbage">
-        <image id="Cabbage-2" data-name="Cabbage" width="270" height="279" transform="translate(92.51583 144.70002) scale(0.01809)" xlink:href="<?php the_field('cabbage_icon_image'); ?>"/>
-        <image id="Cabbage-3" data-name="Cabbage" width="270" height="279" transform="translate(120.20443 154.45492) scale(0.01809)" xlink:href="<?php the_field('cabbage_icon_image'); ?>"/>
-        <image id="Cabbage-4" data-name="Cabbage" width="270" height="279" transform="translate(148.04203 147.49292) scale(0.01809)" xlink:href="<?php the_field('cabbage_icon_image'); ?>"/>
-        <image id="Cabbage-5" data-name="Cabbage" width="270" height="279" transform="translate(152.42138 169.92939) scale(0.01809)" xlink:href="<?php the_field('cabbage_icon_image'); ?>"/>
-        <image id="Cabbage-6" data-name="Cabbage" width="270" height="279" transform="translate(374.35068 324.26851) scale(0.01809)" xlink:href="<?php the_field('cabbage_icon_image'); ?>"/>
-        <image id="Cabbage-7" data-name="Cabbage" width="270" height="279" transform="translate(96.16699 172.10459) scale(0.01809)" xlink:href="<?php the_field('cabbage_icon_image'); ?>"/>
+      <g id="cabbage" data-name="cabbage">
+        <a <?php echo get_map_icon_html('cabbage'); ?>><image id="Cabbage-2" data-name="Cabbage" width="270" height="279" transform="translate(92.51583 144.70002) scale(0.01809)" xlink:href="<?php the_field('cabbage_icon_image'); ?>"/></a>
+        <a <?php echo get_map_icon_html('cabbage'); ?>><image id="Cabbage-3" data-name="Cabbage" width="270" height="279" transform="translate(120.20443 154.45492) scale(0.01809)" xlink:href="<?php the_field('cabbage_icon_image'); ?>"/></a>
+        <a <?php echo get_map_icon_html('cabbage'); ?>><image id="Cabbage-4" data-name="Cabbage" width="270" height="279" transform="translate(148.04203 147.49292) scale(0.01809)" xlink:href="<?php the_field('cabbage_icon_image'); ?>"/></a>
+        <a <?php echo get_map_icon_html('cabbage'); ?>><image id="Cabbage-5" data-name="Cabbage" width="270" height="279" transform="translate(152.42138 169.92939) scale(0.01809)" xlink:href="<?php the_field('cabbage_icon_image'); ?>"/></a>
+        <a <?php echo get_map_icon_html('cabbage'); ?>><image id="Cabbage-6" data-name="Cabbage" width="270" height="279" transform="translate(374.35068 324.26851) scale(0.01809)" xlink:href="<?php the_field('cabbage_icon_image'); ?>"/></a>
+        <a <?php echo get_map_icon_html('cabbage'); ?>><image id="Cabbage-7" data-name="Cabbage" width="270" height="279" transform="translate(96.16699 172.10459) scale(0.01809)" xlink:href="<?php the_field('cabbage_icon_image'); ?>"/></a>
       </g>
--->
-      <g id="cheese">
+      <g id="cheese" data-name="cheese">
         <a <?php echo get_map_icon_html('cheese'); ?>><image id="Cheese-2" data-name="Cheese" width="401" height="364" transform="translate(45.61864 213.36178) scale(0.01492)" xlink:href="<?php the_field('cheese_icon_image'); ?>"/></a>
         <a <?php echo get_map_icon_html('cheese'); ?>><image id="Cheese-3" data-name="Cheese" width="401" height="364" transform="translate(79.61392 191.34438) scale(0.01492)" xlink:href="<?php the_field('cheese_icon_image'); ?>"/></a>
         <a <?php echo get_map_icon_html('cheese'); ?>><image id="Cheese-4" data-name="Cheese" width="401" height="364" transform="translate(95.9727 160.92435) scale(0.01492)" xlink:href="<?php the_field('cheese_icon_image'); ?>"/></a>
@@ -1165,19 +1163,17 @@
         <a <?php echo get_map_icon_html('cheese'); ?>><image id="Cheese-14" data-name="Cheese" width="401" height="364" transform="translate(329.32877 337.62735) scale(0.01072)" xlink:href="<?php the_field('cheese_icon_image'); ?>"/></a>
         <a <?php echo get_map_icon_html('cheese'); ?>><image id="Cheese-15" data-name="Cheese" width="401" height="364" transform="translate(322.72936 341.59216) scale(0.01084)" xlink:href="<?php the_field('cheese_icon_image'); ?>"/></a>
       </g>
-      <g id="cherry">
-        <a <?php echo get_map_icon_html('cherry'); ?>><image id="Cherry-2" data-name="Cherry" width="320" height="439" transform="translate(64.30188 158.66227) scale(0.01492)" xlink:href="<?php the_field('cherry_icon_image'); ?>"/></a>
-        <a <?php echo get_map_icon_html('cherry'); ?>><image id="Cherry-3" data-name="Cherry" width="320" height="439" transform="translate(162.54535 160.36473) scale(0.01492)" xlink:href="<?php the_field('cherry_icon_image'); ?>"/></a>
+      <g id="cherries" data-name="cherries">
+        <a <?php echo get_map_icon_html('cherries'); ?>><image id="Cherry-2" data-name="Cherry" width="320" height="439" transform="translate(64.30188 158.66227) scale(0.01492)" xlink:href="<?php the_field('cherries_icon_image'); ?>"/></a>
+        <a <?php echo get_map_icon_html('cherries'); ?>><image id="Cherry-3" data-name="Cherry" width="320" height="439" transform="translate(162.54535 160.36473) scale(0.01492)" xlink:href="<?php the_field('cherries_icon_image'); ?>"/></a>
       </g>
-<!--
       <g id="chicken">
-        <image id="Chicken-2" data-name="Chicken" width="417" height="487" transform="translate(157.57471 186.34879) scale(0.01492)" xlink:href="<?php the_field('chicken_icon_image'); ?>"/>
-        <image id="Chicken-3" data-name="Chicken" width="417" height="487" transform="translate(167.55537 174.28556) scale(0.01492)" xlink:href="<?php the_field('chicken_icon_image'); ?>"/>
-        <image id="Chicken-4" data-name="Chicken" width="417" height="487" transform="translate(207.37484 160.1475) scale(0.01492)" xlink:href="<?php the_field('chicken_icon_image'); ?>"/>
-        <image id="Chicken-5" data-name="Chicken" width="417" height="487" transform="translate(326.17927 143.29767) scale(0.01492)" xlink:href="<?php the_field('chicken_icon_image'); ?>"/>
-        <image id="Chicken-6" data-name="Chicken" width="417" height="487" transform="translate(302.69637 31.2409) scale(0.01492)" xlink:href="<?php the_field('chicken_icon_image'); ?>"/>
+        <a <?php echo get_map_icon_html('chicken'); ?>><image id="Chicken-2" data-name="Chicken" width="417" height="487" transform="translate(157.57471 186.34879) scale(0.01492)" xlink:href="<?php the_field('chicken_icon_image'); ?>"/></a>
+        <a <?php echo get_map_icon_html('chicken'); ?>><image id="Chicken-3" data-name="Chicken" width="417" height="487" transform="translate(167.55537 174.28556) scale(0.01492)" xlink:href="<?php the_field('chicken_icon_image'); ?>"/></a>
+        <a <?php echo get_map_icon_html('chicken'); ?>><image id="Chicken-4" data-name="Chicken" width="417" height="487" transform="translate(207.37484 160.1475) scale(0.01492)" xlink:href="<?php the_field('chicken_icon_image'); ?>"/></a>
+        <a <?php echo get_map_icon_html('chicken'); ?>><image id="Chicken-5" data-name="Chicken" width="417" height="487" transform="translate(326.17927 143.29767) scale(0.01492)" xlink:href="<?php the_field('chicken_icon_image'); ?>"/></a>
+        <a <?php echo get_map_icon_html('chicken'); ?>><image id="Chicken-6" data-name="Chicken" width="417" height="487" transform="translate(302.69637 31.2409) scale(0.01492)" xlink:href="<?php the_field('chicken_icon_image'); ?>"/></a>
       </g>
--->
       <g id="christmas_tree" data-name="christmas tree">
         <a <?php echo get_map_icon_html('christmas_tree'); ?>><image id="Christmas_Tree-2" data-name="Christmas Tree" width="338" height="443" transform="translate(120.12451 161.86239) scale(0.01492)" xlink:href="<?php the_field('christmas_tree_icon_image'); ?>"/></a>
         <a <?php echo get_map_icon_html('christmas_tree'); ?>><image id="Christmas_Tree-3" data-name="Christmas Tree" width="338" height="443" transform="translate(168.14484 160.33489) scale(0.01492)" xlink:href="<?php the_field('christmas_tree_icon_image'); ?>"/></a>
@@ -1226,19 +1222,19 @@
         <a <?php echo get_map_icon_html('corn'); ?>><image id="corn-23" data-name="corn" width="591" height="534" transform="translate(341.76194 233.13641) scale(0.01492)" xlink:href="<?php the_field('corn_icon_image'); ?>"/></a>
         <a <?php echo get_map_icon_html('corn'); ?>><image id="corn-24" data-name="corn" width="591" height="534" transform="translate(232.05707 164.38208) scale(0.01492)" xlink:href="<?php the_field('corn_icon_image'); ?>"/></a>
       </g>
-      <g id="dairy_cow" data-name="dairy cow">
-        <a <?php echo get_map_icon_html('dairy_cow'); ?>><image id="dairy_cow-2" data-name="dairy cow" width="707" height="401" transform="translate(86.78702 159.4615) scale(0.01197)" xlink:href="<?php the_field('dairy_cow_icon_image'); ?>"/></a>
-        <a <?php echo get_map_icon_html('dairy_cow'); ?>><image id="dairy_cow-3" data-name="dairy cow" width="707" height="401" transform="translate(88.09893 185.68702) scale(0.01197)" xlink:href="<?php the_field('dairy_cow_icon_image'); ?>"/></a>
-        <a <?php echo get_map_icon_html('dairy_cow'); ?>><image id="dairy_cow-4" data-name="dairy cow" width="707" height="401" transform="translate(113.75067 177.84403) scale(0.01197)" xlink:href="<?php the_field('dairy_cow_icon_image'); ?>"/></a>
-        <a <?php echo get_map_icon_html('dairy_cow'); ?>><image id="dairy_cow-5" data-name="dairy cow" width="707" height="401" transform="translate(137.7352 210.28213) scale(0.01197)" xlink:href="<?php the_field('dairy_cow_icon_image'); ?>"/></a>
-        <a <?php echo get_map_icon_html('dairy_cow'); ?>><image id="dairy_cow-6" data-name="dairy cow" width="707" height="401" transform="translate(140.69 167.88797) scale(0.01197)" xlink:href="<?php the_field('dairy_cow_icon_image'); ?>"/></a>
-        <a <?php echo get_map_icon_html('dairy_cow'); ?>><image id="dairy_cow-7" data-name="dairy cow" width="707" height="401" transform="translate(183.38917 167.33348) scale(0.01197)" xlink:href="<?php the_field('dairy_cow_icon_image'); ?>"/></a>
-        <a <?php echo get_map_icon_html('dairy_cow'); ?>><image id="dairy_cow-8" data-name="dairy cow" width="707" height="401" transform="translate(197.7202 173.11756) scale(0.01197)" xlink:href="<?php the_field('dairy_cow_icon_image'); ?>"/></a>
-        <a <?php echo get_map_icon_html('dairy_cow'); ?>><image id="dairy_cow-9" data-name="dairy cow" width="707" height="401" transform="translate(184.73959 214.4772) scale(0.01197)" xlink:href="<?php the_field('dairy_cow_icon_image'); ?>"/></a>
-        <a <?php echo get_map_icon_html('dairy_cow'); ?>><image id="dairy_cow-10" data-name="dairy cow" width="707" height="401" transform="translate(352.14696 139.22297) scale(0.01197)" xlink:href="<?php the_field('dairy_cow_icon_image'); ?>"/></a>
-        <a <?php echo get_map_icon_html('dairy_cow'); ?>><image id="dairy_cow-11" data-name="dairy cow" width="707" height="401" transform="translate(246.90222 100.86885) scale(0.01197)" xlink:href="<?php the_field('dairy_cow_icon_image'); ?>"/></a>
-        <a <?php echo get_map_icon_html('dairy_cow'); ?>><image id="dairy_cow-12" data-name="dairy cow" width="707" height="401" transform="translate(219.28443 99.27452) scale(0.01197)" xlink:href="<?php the_field('dairy_cow_icon_image'); ?>"/></a>
-        <a <?php echo get_map_icon_html('dairy_cow'); ?>><image id="dairy_cow-13" data-name="dairy cow" width="707" height="401" transform="translate(268.02967 73.79107) scale(0.01197)" xlink:href="<?php the_field('dairy_cow_icon_image'); ?>"/></a>
+      <g id="dairy_cow" data-name="dairy cattle">
+        <a <?php echo get_map_icon_html('dairy_cow'); ?>><image id="dairy_cow-2" data-name="dairy cattle" width="707" height="401" transform="translate(86.78702 159.4615) scale(0.01197)" xlink:href="<?php the_field('dairy_cow_icon_image'); ?>"/></a>
+        <a <?php echo get_map_icon_html('dairy_cow'); ?>><image id="dairy_cow-3" data-name="dairy cattle" width="707" height="401" transform="translate(88.09893 185.68702) scale(0.01197)" xlink:href="<?php the_field('dairy_cow_icon_image'); ?>"/></a>
+        <a <?php echo get_map_icon_html('dairy_cow'); ?>><image id="dairy_cow-4" data-name="dairy cattle" width="707" height="401" transform="translate(113.75067 177.84403) scale(0.01197)" xlink:href="<?php the_field('dairy_cow_icon_image'); ?>"/></a>
+        <a <?php echo get_map_icon_html('dairy_cow'); ?>><image id="dairy_cow-5" data-name="dairy cattle" width="707" height="401" transform="translate(137.7352 210.28213) scale(0.01197)" xlink:href="<?php the_field('dairy_cow_icon_image'); ?>"/></a>
+        <a <?php echo get_map_icon_html('dairy_cow'); ?>><image id="dairy_cow-6" data-name="dairy cattle" width="707" height="401" transform="translate(140.69 167.88797) scale(0.01197)" xlink:href="<?php the_field('dairy_cow_icon_image'); ?>"/></a>
+        <a <?php echo get_map_icon_html('dairy_cow'); ?>><image id="dairy_cow-7" data-name="dairy cattle" width="707" height="401" transform="translate(183.38917 167.33348) scale(0.01197)" xlink:href="<?php the_field('dairy_cow_icon_image'); ?>"/></a>
+        <a <?php echo get_map_icon_html('dairy_cow'); ?>><image id="dairy_cow-8" data-name="dairy cattle" width="707" height="401" transform="translate(197.7202 173.11756) scale(0.01197)" xlink:href="<?php the_field('dairy_cow_icon_image'); ?>"/></a>
+        <a <?php echo get_map_icon_html('dairy_cow'); ?>><image id="dairy_cow-9" data-name="dairy cattle" width="707" height="401" transform="translate(184.73959 214.4772) scale(0.01197)" xlink:href="<?php the_field('dairy_cow_icon_image'); ?>"/></a>
+        <a <?php echo get_map_icon_html('dairy_cow'); ?>><image id="dairy_cow-10" data-name="dairy cattle" width="707" height="401" transform="translate(352.14696 139.22297) scale(0.01197)" xlink:href="<?php the_field('dairy_cow_icon_image'); ?>"/></a>
+        <a <?php echo get_map_icon_html('dairy_cow'); ?>><image id="dairy_cow-11" data-name="dairy cattle" width="707" height="401" transform="translate(246.90222 100.86885) scale(0.01197)" xlink:href="<?php the_field('dairy_cow_icon_image'); ?>"/></a>
+        <a <?php echo get_map_icon_html('dairy_cow'); ?>><image id="dairy_cow-12" data-name="dairy cattle" width="707" height="401" transform="translate(219.28443 99.27452) scale(0.01197)" xlink:href="<?php the_field('dairy_cow_icon_image'); ?>"/></a>
+        <a <?php echo get_map_icon_html('dairy_cow'); ?>><image id="dairy_cow-13" data-name="dairy cattle" width="707" height="401" transform="translate(268.02967 73.79107) scale(0.01197)" xlink:href="<?php the_field('dairy_cow_icon_image'); ?>"/></a>
       </g>
       <g id="dairy_processing" data-name="dairy processing">
         <a <?php echo get_map_icon_html('dairy_processing'); ?>><image id="dairy_processing-2" data-name="dairy processing" width="300" height="312" transform="translate(65.11423 170.12854) scale(0.01893)" xlink:href="<?php the_field('dairy_processing_icon_image'); ?>"/></a>
