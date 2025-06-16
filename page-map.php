@@ -144,7 +144,7 @@ get_header();
 						
 							<input type="checkbox" class="custom-control-input" id="dairy_productionToggle" checked>
 						
-							<label class="custom-control-label" for="dairy_productionToggle"><?php _e('Dairy Production'); ?></label>
+							<label class="custom-control-label" for="dairy_productionToggle"><?php _e('Dairy Processing'); ?></label>
 						
 						</div>
 	
