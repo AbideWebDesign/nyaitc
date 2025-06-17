@@ -45,31 +45,31 @@
       </g>
       <g id="Names">
         <g id="Bronx_Text" data-name="Bronx Text">
-          <a id="Bronx-pop" class="region-county" data-toggle="modal" data-target="#region-modal" data-content="<h3 class='text-primary mt-3 mb-4'>Bronx Top 5 Commodities</h3><?php echo $Bronx['top_5']; ?>">
+          <a id="Bronx-pop" class="region-county" data-toggle="modal" data-target="#region-modal" data-content="<h3 class='text-primary mt-3 mb-4'>Bronx Top 5 Agricultural Products</h3><?php echo $Bronx['top_5']; ?>">
 		  	<text transform="translate(20.10181 2.14496)" font-size="2.5" font-family="Arial-Black, Arial Black" font-weight="800">B<tspan x="1.94482" y="0" letter-spacing="-0.01719em">R</tspan><tspan x="3.84619" y="0" letter-spacing="0.0002em">ONX</tspan></text>
           </a>
         </g>
         <polygon id="Bronx_Line" data-name="Bronx Line" points="40.31 6.306 31.232 1.458 31.35 1.238 40.428 6.085 40.31 6.306" fill="#333"/>
         <g id="New_York_Text" data-name="New York Text">
-           <a id="New_York-pop" class="region-county" data-toggle="modal" data-target="#region-modal" data-content="<h3 class='text-primary mt-3 mb-4'>New York City Top 5 Commodities</h3><?php echo $New_York['top_5']; ?>">
+           <a id="New_York-pop" class="region-county" data-toggle="modal" data-target="#region-modal" data-content="<h3 class='text-primary mt-3 mb-4'>New York City Top 5 Agricultural Products</h3><?php echo $New_York['top_5']; ?>">
 		   	<text transform="translate(15.1792 9.65814)" font-size="2.5" font-family="Arial-Black, Arial Black" font-weight="800">NEW <tspan x="7.22168" y="0" letter-spacing="-0.05996em">Y</tspan><tspan x="9.01611" y="0">ORK</tspan></text>
            </a>
         </g>
         <polygon id="New_York_Line" data-name="New York Line" points="35.739 12.286 32.056 8.446 32.237 8.273 35.92 12.113 35.739 12.286" fill="#333"/>
         <g id="Queens_Text" data-name="Queens Text">
-            <a id="Queens-pop" class="region-county" data-toggle="modal" data-target="#region-modal" data-content="<h3 class='text-primary mt-3 mb-4'>Queens Top 5 Commodities</h3><?php echo $Queens['top_5']; ?>">
+            <a id="Queens-pop" class="region-county" data-toggle="modal" data-target="#region-modal" data-content="<h3 class='text-primary mt-3 mb-4'>Queens Top 5 Agricultural Products</h3><?php echo $Queens['top_5']; ?>">
 				<text transform="translate(14.71143 16.67419)" font-size="2.5" font-family="Arial-Black, Arial Black" font-weight="800">QUEENS</text>
             </a>
         </g>
         <rect id="Queens_Line" data-name="Queens Line" x="34.9274" y="8.99504" width="0.24966" height="14.25644" transform="translate(15.07963 49.13406) rotate(-83.5261)" fill="#333"/>
         <g id="Kings_Text" data-name="Kings Text">
-            <a id="Kings-pop" class="region-county" data-toggle="modal" data-target="#region-modal" data-content="<h3 class='text-primary mt-3 mb-4'>Kings Top 5 Commodities</h3><?php echo $Kings['top_5']; ?>">
+            <a id="Kings-pop" class="region-county" data-toggle="modal" data-target="#region-modal" data-content="<h3 class='text-primary mt-3 mb-4'>Kings Top 5 Agricultural Products</h3><?php echo $Kings['top_5']; ?>">
 				<text transform="translate(12.20776 22.6272)" font-size="2.5" font-family="Arial-Black, Arial Black" font-weight="800">KINGS</text>
             </a>
         </g>
         <polygon id="Kings_Line" data-name="Kings Line" points="35.456 23.263 22.471 22.108 22.493 21.86 35.478 23.015 35.456 23.263" fill="#333"/>
         <g id="Richmond_Text" data-name="Richmond Text">
-          <a id="Richmond-pop" class="region-county" data-toggle="modal" data-target="#region-modal" data-content="<h3 class='text-primary mt-3 mb-4'>Richmond Top 5 Commodities</h3><?php echo $Richmond['top_5']; ?>">
+          <a id="Richmond-pop" class="region-county" data-toggle="modal" data-target="#region-modal" data-content="<h3 class='text-primary mt-3 mb-4'>Richmond Top 5 Agricultural Products</h3><?php echo $Richmond['top_5']; ?>">
 		  	<text transform="translate(0.00024 30.78189)" font-size="2.5" font-family="Arial-Black, Arial Black" font-weight="800">RICHMOND</text>
           </a>
         </g>

@@ -21,19 +21,19 @@
       </g>
       <g id="Names">
         <g id="sullivan-2" data-name="sullivan">
-          					<a id="Sullivan-pop" class="region-county" data-toggle="modal" data-target="#region-modal" data-content="<h3 class='text-primary mt-3 mb-4'>Sullivan Top 5 Commodities</h3><?php echo $Sullivan['top_5']; ?>">
+          					<a id="Sullivan-pop" class="region-county" data-toggle="modal" data-target="#region-modal" data-content="<h3 class='text-primary mt-3 mb-4'>Sullivan Top 5 Agricultural Products</h3><?php echo $Sullivan['top_5']; ?>">
 <text transform="translate(27.88068 61.19493)" font-size="2.5" font-family="Arial-Black, Arial Black" font-weight="800">SULLI<tspan x="8.1958" y="0" letter-spacing="-0.05703em">V</tspan><tspan x="9.99756" y="0">AN</tspan></text>
           					</a></g>
         <g id="ulster-2" data-name="ulster">
-          					<a id="Ulster-pop" class="region-county" data-toggle="modal" data-target="#region-modal" data-content="<h3 class='text-primary mt-3 mb-4'>Ulster Top 5 Commodities</h3><?php echo $Ulster['top_5']; ?>">
+          					<a id="Ulster-pop" class="region-county" data-toggle="modal" data-target="#region-modal" data-content="<h3 class='text-primary mt-3 mb-4'>Ulster Top 5 Agricultural Products</h3><?php echo $Ulster['top_5']; ?>">
 <text transform="translate(57.56794 50.94927)" font-size="2.5" font-family="Arial-Black, Arial Black" font-weight="800">ULSTER</text>
           					</a></g>
         <g id="greene-2" data-name="greene">
-          					<a id="Greene-pop" class="region-county" data-toggle="modal" data-target="#region-modal" data-content="<h3 class='text-primary mt-3 mb-4'>Greene Top 5 Commodities</h3><?php echo $Greene['top_5']; ?>">
+          					<a id="Greene-pop" class="region-county" data-toggle="modal" data-target="#region-modal" data-content="<h3 class='text-primary mt-3 mb-4'>Greene Top 5 Agricultural Products</h3><?php echo $Greene['top_5']; ?>">
 <text transform="translate(66.14985 18.78581)" font-size="2.5" font-family="Arial-Black, Arial Black" font-weight="800">GREENE</text>
           					</a></g>
         <g id="delaware-2" data-name="delaware">
-          					<a id="Deleware-pop" class="region-county" data-toggle="modal" data-target="#region-modal" data-content="<h3 class='text-primary mt-3 mb-4'>Delaware Top 5 Commodities</h3><?php echo $Delaware['top_5']; ?>">
+          					<a id="Deleware-pop" class="region-county" data-toggle="modal" data-target="#region-modal" data-content="<h3 class='text-primary mt-3 mb-4'>Delaware Top 5 Agricultural Products</h3><?php echo $Delaware['top_5']; ?>">
 <text transform="translate(18.17902 24.116)" font-size="2.5" font-family="Arial-Black, Arial Black" font-weight="800">DEL<tspan x="5.41748" y="0" letter-spacing="0.00781em">A</tspan><tspan x="7.38184" y="0">WARE</tspan></text>
           					</a></g>
       </g>

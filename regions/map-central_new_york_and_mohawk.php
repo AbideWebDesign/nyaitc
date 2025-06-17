@@ -42,47 +42,47 @@
       </g>
       <g id="Names">
         <g id="montgomery-2" data-name="montgomery">
-          				<a id="Montgomery-pop" class="region-county" data-toggle="modal" data-target="#region-modal" data-content="<h3 class='text-primary mt-3 mb-4'>Montgomery Top 5 Commodities</h3><?php echo $Montgomery['top_5']; ?>">
+          				<a id="Montgomery-pop" class="region-county" data-toggle="modal" data-target="#region-modal" data-content="<h3 class='text-primary mt-3 mb-4'>Montgomery Top 5 Agricultural Products</h3><?php echo $Montgomery['top_5']; ?>">
 <text transform="translate(102.19566 90.93439)" font-size="2.5" font-family="Arial-Black, Arial Black" font-weight="800">MON<tspan x="6.5249" y="0" letter-spacing="-0.03438em">T</tspan><tspan x="8.24463" y="0">GOME</tspan><tspan x="16.57471" y="0" letter-spacing="-0.04297em">R</tspan><tspan x="18.41162" y="0" letter-spacing="0.0002em">Y</tspan></text>
           				</a></g>
         <g id="schoharie-2" data-name="schoharie">
-          			<a id="Schohaire-pop" class="region-county" data-toggle="modal" data-target="#region-modal" data-content="<h3 class='text-primary mt-3 mb-4'>Schohaire Top 5 Commodities</h3><?php echo $Schoharie['top_5']; ?>">
+          			<a id="Schohaire-pop" class="region-county" data-toggle="modal" data-target="#region-modal" data-content="<h3 class='text-primary mt-3 mb-4'>Schohaire Top 5 Agricultural Products</h3><?php echo $Schoharie['top_5']; ?>">
 <text transform="translate(104.01951 114.9068)" font-size="2.5" font-family="Arial-Black, Arial Black" font-weight="800">SCHOHARIE</text>
           			</a></g>
         <g id="albany-2" data-name="albany">
-          				<a id="Albany-pop" class="region-county" data-toggle="modal" data-target="#region-modal" data-content="<h3 class='text-primary mt-3 mb-4'>Albany Top 5 Commodities</h3><?php echo $Albany['top_5']; ?>">
+          				<a id="Albany-pop" class="region-county" data-toggle="modal" data-target="#region-modal" data-content="<h3 class='text-primary mt-3 mb-4'>Albany Top 5 Agricultural Products</h3><?php echo $Albany['top_5']; ?>">
 <text transform="translate(133.74742 113.98352)" font-size="2.5" font-family="Arial-Black, Arial Black" font-weight="800">AL<tspan x="3.61182" y="0" letter-spacing="-0.01699em">B</tspan><tspan x="5.51416" y="0">ANY</tspan></text>
           				</a></g>
         <g id="chenango-2" data-name="chenango">
-          				<a id="Chenago-pop" class="region-county" data-toggle="modal" data-target="#region-modal" data-content="<h3 class='text-primary mt-3 mb-4'>Chenago Top 5 Commodities</h3><?php echo $Chenango['top_5']; ?>">
+          				<a id="Chenago-pop" class="region-county" data-toggle="modal" data-target="#region-modal" data-content="<h3 class='text-primary mt-3 mb-4'>Chenago Top 5 Agricultural Products</h3><?php echo $Chenango['top_5']; ?>">
 <text transform="translate(40.02708 121.56531)" font-size="2.5" font-family="Arial-Black, Arial Black" font-weight="800">CHE<tspan x="5.83252" y="0" letter-spacing="-0.00977em">N</tspan><tspan x="7.89063" y="0">ANGO</tspan></text>
           				</a></g>
         <g id="madison-2" data-name="madison">
-          				<a id="Madison-pop" class="region-county" data-toggle="modal" data-target="#region-modal" data-content="<h3 class='text-primary mt-3 mb-4'>Madison Top 5 Commodities</h3><?php echo $Madison['top_5']; ?>">			
+          				<a id="Madison-pop" class="region-county" data-toggle="modal" data-target="#region-modal" data-content="<h3 class='text-primary mt-3 mb-4'>Madison Top 5 Agricultural Products</h3><?php echo $Madison['top_5']; ?>">			
 <text transform="translate(42.33567 97.52081)" font-size="2.5" font-family="Arial-Black, Arial Black" font-weight="800">MADISON</text>
           				</a></g>
         <g id="oneida-2" data-name="oneida">
-          				<a id="Oneida-pop" class="region-county" data-toggle="modal" data-target="#region-modal" data-content="<h3 class='text-primary mt-3 mb-4'>Oneida Top 5 Commodities</h3><?php echo $Oneida['top_5']; ?>">			
+          				<a id="Oneida-pop" class="region-county" data-toggle="modal" data-target="#region-modal" data-content="<h3 class='text-primary mt-3 mb-4'>Oneida Top 5 Agricultural Products</h3><?php echo $Oneida['top_5']; ?>">			
 <text transform="translate(51.27976 66.5188)" font-size="2.5" font-family="Arial-Black, Arial Black" font-weight="800">ONEI<tspan x="6.94336" y="0" letter-spacing="-0.04297em">D</tspan><tspan x="8.78027" y="0" letter-spacing="0.0002em">A</tspan></text>
           				</a></g>
         <g id="onondaga-2" data-name="onondaga">
-          				<a id="Onondaga-pop" class="region-county" data-toggle="modal" data-target="#region-modal" data-content="<h3 class='text-primary mt-3 mb-4'>Onondaga Top 5 Commodities</h3><?php echo $Onondaga['top_5']; ?>">			
+          				<a id="Onondaga-pop" class="region-county" data-toggle="modal" data-target="#region-modal" data-content="<h3 class='text-primary mt-3 mb-4'>Onondaga Top 5 Agricultural Products</h3><?php echo $Onondaga['top_5']; ?>">			
 <text transform="translate(8.50059 83.61163)" font-size="2.5" font-family="Arial-Black, Arial Black" font-weight="800">ONON<tspan x="8.33008" y="0" letter-spacing="-0.04297em">D</tspan><tspan x="10.16699" y="0" letter-spacing="-0.01797em">A</tspan><tspan x="12.06641" y="0" letter-spacing="0.0002em">GA</tspan></text>
           				</a></g>
         <g id="cortland-2" data-name="cortland">
-          				<a id="Cortland-pop" class="region-county" data-toggle="modal" data-target="#region-modal" data-content="<h3 class='text-primary mt-3 mb-4'>Cortland Top 5 Commodities</h3><?php echo $Cortland['top_5']; ?>">			
+          				<a id="Cortland-pop" class="region-county" data-toggle="modal" data-target="#region-modal" data-content="<h3 class='text-primary mt-3 mb-4'>Cortland Top 5 Agricultural Products</h3><?php echo $Cortland['top_5']; ?>">			
 <text transform="translate(15.18992 114.84705)" font-size="2.5" font-family="Arial-Black, Arial Black" font-weight="800">CO<tspan x="4.02734" y="0" letter-spacing="-0.00898em">R</tspan><tspan x="5.94971" y="0" letter-spacing="-0.0002em">TLAND</tspan></text>
           				</a></g>
         <g id="otsego-2" data-name="otsego">
-          				<a id="Otsego-pop" class="region-county" data-toggle="modal" data-target="#region-modal" data-content="<h3 class='text-primary mt-3 mb-4'>Otsego Top 5 Commodities</h3><?php echo $Otsego['top_5']; ?>">			
+          				<a id="Otsego-pop" class="region-county" data-toggle="modal" data-target="#region-modal" data-content="<h3 class='text-primary mt-3 mb-4'>Otsego Top 5 Agricultural Products</h3><?php echo $Otsego['top_5']; ?>">			
 <text transform="translate(75.60301 109.60852)" font-size="2.5" font-family="Arial-Black, Arial Black" font-weight="800" letter-spacing="-0.02598em">O<tspan x="2.01758" y="0" letter-spacing="0.0002em">TSEGO</tspan></text>
           				</a></g>
         <g id="herkimer-2" data-name="herkimer">
-          				<a id="Herkimer-pop" class="region-county" data-toggle="modal" data-target="#region-modal" data-content="<h3 class='text-primary mt-3 mb-4'>Herkimer Top 5 Commodities</h3><?php echo $Herkimer['top_5']; ?>">
+          				<a id="Herkimer-pop" class="region-county" data-toggle="modal" data-target="#region-modal" data-content="<h3 class='text-primary mt-3 mb-4'>Herkimer Top 5 Agricultural Products</h3><?php echo $Herkimer['top_5']; ?>">
 <text transform="translate(75.34995 78.94489)" font-size="2.5" font-family="Arial-Black, Arial Black" font-weight="800">HERKIMER</text>
           				</a></g>
         <g id="schenectady-2" data-name="schenectady">
-          				<a id="schenectady-pop" class="region-county" data-toggle="modal" data-target="#region-modal" data-content="<h3 class='text-primary mt-3 mb-4'>Schenectady Top 5 Commodities</h3><?php echo $schenectady['top_5']; ?>">			
+          				<a id="schenectady-pop" class="region-county" data-toggle="modal" data-target="#region-modal" data-content="<h3 class='text-primary mt-3 mb-4'>Schenectady Top 5 Agricultural Products</h3><?php echo $schenectady['top_5']; ?>">			
 <text transform="translate(126.59873 95.42462)" font-size="2.5" font-family="Arial-Black, Arial Black" font-weight="800">SCHENEC-<tspan letter-spacing="-0.06777em"><tspan x="3.45947" y="3">T</tspan><tspan x="5.09521" y="3" letter-spacing="0.0002em">A</tspan><tspan x="7.04004" y="3" letter-spacing="-0.03418em">D</tspan><tspan x="8.89893" y="3" letter-spacing="0.0002em">Y</tspan></tspan></text>
           				</a></g>
       </g>

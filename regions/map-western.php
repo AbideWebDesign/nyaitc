@@ -20,22 +20,22 @@
         <path id="cattaraugus" d="M79.69867,102.17544h0l-33.46524-.03123-7.69035-.09612a.1537.1537,0,0,1-.152-.15378l.11413-40.05208a.15485.15485,0,0,1,.15379-.15378h.0024l1.93911.03244a.15957.15957,0,0,1,.10873.04685l3.41807,3.561a.15462.15462,0,0,1,.03.04566l.71545,1.66638,3.17,1.867,1.78292-.21986,3.37061-1.40687a.15131.15131,0,0,1,.14.01081l.83019.51061,3.212-1.998a.15082.15082,0,0,1,.15558-.00361l1.154.64157,4.7066-2.25028a.15754.15754,0,0,1,.04686-.01442l2.60049-.32559,5.17937-1.855a.15466.15466,0,0,1,.20184.11173l.14537.64877,8.10785.12615a.15359.15359,0,0,1,.15138.15379l.02463,38.984a.15507.15507,0,0,1-.04505.10933A.15312.15312,0,0,1,79.69867,102.17544Zm-40.9994-.43251,7.536.09371,33.30965.03124L79.52026,63.189l-8.07782-.12615a.15391.15391,0,0,1-.14778-.12015l-.13335-.59711L66.1129,64.15018l-2.60831.32919-4.75586,2.27431a.1494.1494,0,0,1-.14057-.00361l-1.14436-.63675L54.24817,68.1137a.15106.15106,0,0,1-.16159,0l-.844-.519-3.31775,1.38525a.12479.12479,0,0,1-.04085.01081l-1.85561.22827a.14256.14256,0,0,1-.09672-.02042l-3.25827-1.91868a.1506.1506,0,0,1-.06308-.07089l-.72446-1.68681-3.35439-3.495-1.71925-.02883Z" fill="#f9f9f9"/>
       </g>
       <g id="Names">           
-      	<a id="Erie-pop" class="region-county" data-toggle="modal" data-target="#region-modal" data-content="<h3 class='text-primary mt-3 mb-4'>Erie Top 5 Commodities</h3><?php echo $Erie['top_5']; ?>">
+      	<a id="Erie-pop" class="region-county" data-toggle="modal" data-target="#region-modal" data-content="<h3 class='text-primary mt-3 mb-4'>Erie Top 5 Agricultural Products</h3><?php echo $Erie['top_5']; ?>">
 	        <g id="erie-2" data-name="erie">
 			   	<text transform="translate(54.72054 47.31802)" font-size="2.5" font-family="Arial-Black, Arial Black" font-weight="800">ERIE</text>
 	        </g>           
 	    </a>
-		<a id="Cattaraugus-pop" class="region-county" data-toggle="modal" data-target="#region-modal" data-content="<h3 class='text-primary mt-3 mb-4'>Cattaraugus Top 5 Commodities</h3><?php echo $Cattaraugus['top_5']; ?>">
+		<a id="Cattaraugus-pop" class="region-county" data-toggle="modal" data-target="#region-modal" data-content="<h3 class='text-primary mt-3 mb-4'>Cattaraugus Top 5 Agricultural Products</h3><?php echo $Cattaraugus['top_5']; ?>">
         	<g id="cattaraugus-2" data-name="cattaraugus">
 				<text transform="translate(48.60018 87.62739)" font-size="2.5" font-family="Arial-Black, Arial Black" font-weight="800">C<tspan x="1.94434" y="0" letter-spacing="-0.06875em">A</tspan><tspan x="3.7168" y="0">T</tspan><tspan x="5.52246" y="0" letter-spacing="-0.06797em">T</tspan><tspan x="7.1582" y="0">AR</tspan><tspan x="11.04736" y="0" letter-spacing="-0.03418em">A</tspan><tspan x="12.90625" y="0" letter-spacing="0.0002em">UGUS</tspan></text>
 			</g>
 		</a>			
-		<a id="Chautauqua-pop" class="region-county" data-toggle="modal" data-target="#region-modal" data-content="<h3 class='text-primary mt-3 mb-4'>Chautauqua Top 5 Commodities</h3><?php echo $Chautauqua['top_5']; ?>">
+		<a id="Chautauqua-pop" class="region-county" data-toggle="modal" data-target="#region-modal" data-content="<h3 class='text-primary mt-3 mb-4'>Chautauqua Top 5 Agricultural Products</h3><?php echo $Chautauqua['top_5']; ?>">
         	<g id="chautauqua-2" data-name="chautauqua">
 				<text transform="translate(10.61837 89.13984)" font-size="2.5" font-family="Arial-Black, Arial Black" font-weight="800">CH<tspan x="4.02734" y="0" letter-spacing="-0.03438em">A</tspan><tspan x="5.88623" y="0">U</tspan><tspan x="7.96875" y="0" letter-spacing="-0.06777em">T</tspan><tspan x="9.60449" y="0" letter-spacing="-0.03398em">A</tspan><tspan x="11.46387" y="0" letter-spacing="-0.0002em">UQ</tspan><tspan x="15.62891" y="0" letter-spacing="-0.03418em">U</tspan><tspan x="17.62598" y="0" letter-spacing="-0.0002em">A</tspan></text>
 			</g>
 		</a>
-		<a id="Niagra-pop" class="region-county" data-toggle="modal" data-target="#region-modal" data-content="<h3 class='text-primary mt-3 mb-4'>Niagara Top 5 Commodities</h3><?php echo $Niagara['top_5']; ?>">
+		<a id="Niagra-pop" class="region-county" data-toggle="modal" data-target="#region-modal" data-content="<h3 class='text-primary mt-3 mb-4'>Niagara Top 5 Agricultural Products</h3><?php echo $Niagara['top_5']; ?>">
 	        <g id="niagara-2" data-name="niagara">
 			  	<text transform="translate(47.88473 14.64732)" font-size="2.5" font-family="Arial-Black, Arial Black" font-weight="800">NI<tspan x="3.05566" y="0" letter-spacing="-0.01797em">A</tspan><tspan x="4.95508" y="0" letter-spacing="-0.0002em">GARA</tspan></text>
 	        </g>

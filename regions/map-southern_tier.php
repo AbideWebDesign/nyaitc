@@ -30,31 +30,31 @@
       </g>
       <g id="Names">
         <g id="broome-2" data-name="broome">
-                   				<a id="Broome-pop" class="region-county" data-toggle="modal" data-target="#region-modal" data-content="<h3 class='text-primary mt-3 mb-4'>Broome Top 5 Commodities</h3><?php echo $Broome['top_5']; ?>">
+                   				<a id="Broome-pop" class="region-county" data-toggle="modal" data-target="#region-modal" data-content="<h3 class='text-primary mt-3 mb-4'>Broome Top 5 Agricultural Products</h3><?php echo $Broome['top_5']; ?>">
 <text transform="translate(130.55276 40.92498)" font-size="2.5" font-family="Arial-Black, Arial Black" font-weight="800">B<tspan x="1.94482" y="0" letter-spacing="-0.01719em">R</tspan><tspan x="3.84619" y="0" letter-spacing="0.0002em">OOME</tspan></text>
                    				</a></g>
         <g id="tioga-2" data-name="tioga">
-                  				<a id="Tioga-pop" class="region-county" data-toggle="modal" data-target="#region-modal" data-content="<h3 class='text-primary mt-3 mb-4'>Tioga Top 5 Commodities</h3><?php echo $Tioga['top_5']; ?>">
+                  				<a id="Tioga-pop" class="region-county" data-toggle="modal" data-target="#region-modal" data-content="<h3 class='text-primary mt-3 mb-4'>Tioga Top 5 Agricultural Products</h3><?php echo $Tioga['top_5']; ?>">
 <text transform="translate(104.03127 39.68176)" font-size="2.5" font-family="Arial-Black, Arial Black" font-weight="800">TIOGA</text>
                   				</a></g>
         <g id="tompkins-2" data-name="tompkins">
-                    				<a id="Thompkins-pop" class="region-county" data-toggle="modal" data-target="#region-modal" data-content="<h3 class='text-primary mt-3 mb-4'>Tompkins Top 5 Commodities</h3><?php echo $Tompkins['top_5']; ?>">
+                    				<a id="Thompkins-pop" class="region-county" data-toggle="modal" data-target="#region-modal" data-content="<h3 class='text-primary mt-3 mb-4'>Tompkins Top 5 Agricultural Products</h3><?php echo $Tompkins['top_5']; ?>">
 <text transform="translate(92.21572 14.28622)" font-size="2.5" font-family="Arial-Black, Arial Black" font-weight="800" letter-spacing="-0.03398em">T<tspan x="1.72021" y="0" letter-spacing="-0.0002em">OMPKINS</tspan></text>
                     				</a></g>
         <g id="schuyler-2" data-name="schuyler">
-                             				<a id="Schuyler-pop" class="region-county" data-toggle="modal" data-target="#region-modal" data-content="<h3 class='text-primary mt-3 mb-4'>Schuyler Top 5 Commodities</h3><?php echo $Schuyler['top_5']; ?>">
+                             				<a id="Schuyler-pop" class="region-county" data-toggle="modal" data-target="#region-modal" data-content="<h3 class='text-primary mt-3 mb-4'>Schuyler Top 5 Agricultural Products</h3><?php echo $Schuyler['top_5']; ?>">
 <text transform="translate(69.10122 20.73501)" font-size="2.5" font-family="Arial-Black, Arial Black" font-weight="800">SCHUYLER</text>
                              				</a> </g>
         <g id="chemung-2" data-name="chemung">
-                   				<a id="Chemung-pop" class="region-county" data-toggle="modal" data-target="#region-modal" data-content="<h3 class='text-primary mt-3 mb-4'>Chemung Top 5 Commodities</h3><?php echo $Chemung['top_5']; ?>">
+                   				<a id="Chemung-pop" class="region-county" data-toggle="modal" data-target="#region-modal" data-content="<h3 class='text-primary mt-3 mb-4'>Chemung Top 5 Agricultural Products</h3><?php echo $Chemung['top_5']; ?>">
 <text transform="translate(76.96377 39.02417)" font-size="2.5" font-family="Arial-Black, Arial Black" font-weight="800">CHEMUNG</text>
                    				</a></g>
         <g id="steuben-2" data-name="steuben">
-                    				<a id="Steuben-pop" class="region-county" data-toggle="modal" data-target="#region-modal" data-content="<h3 class='text-primary mt-3 mb-4'>Stueben Top 5 Commodities</h3><?php echo $Steuben['top_5']; ?>">
+                    				<a id="Steuben-pop" class="region-county" data-toggle="modal" data-target="#region-modal" data-content="<h3 class='text-primary mt-3 mb-4'>Stueben Top 5 Agricultural Products</h3><?php echo $Steuben['top_5']; ?>">
 <text transform="translate(44.0071 31.54712)" font-size="2.5" font-family="Arial-Black, Arial Black" font-weight="800">STEUBEN</text>
                     				</a></g>
         <g id="allegany-2" data-name="allegany">
-                    				<a id="Allegany-pop" class="region-county" data-toggle="modal" data-target="#region-modal" data-content="<h3 class='text-primary mt-3 mb-4'>Allegany Top 5 Commodities</h3><?php echo $Allegany['top_5']; ?>">
+                    				<a id="Allegany-pop" class="region-county" data-toggle="modal" data-target="#region-modal" data-content="<h3 class='text-primary mt-3 mb-4'>Allegany Top 5 Agricultural Products</h3><?php echo $Allegany['top_5']; ?>">
 <text transform="translate(8.48293 29.58676)" font-size="2.5" font-family="Arial-Black, Arial Black" font-weight="800">ALLEGANY</text>
                     				</a></g>
       </g>

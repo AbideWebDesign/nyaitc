@@ -30,31 +30,31 @@
       </g>
       <g id="Names">
         <g id="wayne-2" data-name="wayne">
-         					<a id="Wayne-pop" class="region-county" data-toggle="modal" data-target="#region-modal" data-content="<h3 class='text-primary mt-3 mb-4'>Wayne Top 5 Commodities</h3><?php echo $Wayne['top_5']; ?>">
+         					<a id="Wayne-pop" class="region-county" data-toggle="modal" data-target="#region-modal" data-content="<h3 class='text-primary mt-3 mb-4'>Wayne Top 5 Agricultural Products</h3><?php echo $Wayne['top_5']; ?>">
  <text transform="translate(104.72291 43.69258)" font-size="2.5" font-family="Arial-Black, Arial Black" font-weight="800">W<tspan x="2.5" y="0" letter-spacing="-0.08477em">A</tspan><tspan x="4.23242" y="0">YNE</tspan></text>
          					</a></g>
         <g id="monroe-2" data-name="monroe">
-         				<a id="Monroe-pop" class="region-county" data-toggle="modal" data-target="#region-modal" data-content="<h3 class='text-primary mt-3 mb-4'>Monroe Top 5 Commodities</h3><?php echo $Monroe['top_5']; ?>">
+         				<a id="Monroe-pop" class="region-county" data-toggle="modal" data-target="#region-modal" data-content="<h3 class='text-primary mt-3 mb-4'>Monroe Top 5 Agricultural Products</h3><?php echo $Monroe['top_5']; ?>">
  <text transform="translate(70.31776 45.50162)" font-size="2.5" font-family="Arial-Black, Arial Black" font-weight="800">MON<tspan x="6.52441" y="0" letter-spacing="-0.0168em">R</tspan><tspan x="8.42676" y="0" letter-spacing="-0.0002em">OE</tspan></text>
          				</a></g>
         <g id="orleans-2" data-name="orleans">
-          				<a id="Orleans-pop" class="region-county" data-toggle="modal" data-target="#region-modal" data-content="<h3 class='text-primary mt-3 mb-4'>Orleans Top 5 Commodities</h3><?php echo $Orleans['top_5']; ?>">
+          				<a id="Orleans-pop" class="region-county" data-toggle="modal" data-target="#region-modal" data-content="<h3 class='text-primary mt-3 mb-4'>Orleans Top 5 Agricultural Products</h3><?php echo $Orleans['top_5']; ?>">
 <text transform="translate(39.48158 36.33722)" font-size="2.5" font-family="Arial-Black, Arial Black" font-weight="800">ORLEANS</text>
           				</a></g>
         <g id="niagara-2" data-name="niagara">
-                   				<a id="Niagara-pop" class="region-county" data-toggle="modal" data-target="#region-modal" data-content="<h3 class='text-primary mt-3 mb-4'>Niagara Top 5 Commodities</h3><?php echo $Niagara['top_5']; ?>">
+                   				<a id="Niagara-pop" class="region-county" data-toggle="modal" data-target="#region-modal" data-content="<h3 class='text-primary mt-3 mb-4'>Niagara Top 5 Agricultural Products</h3><?php echo $Niagara['top_5']; ?>">
 <text transform="translate(9.64381 39.75127)" font-size="2.5" font-family="Arial-Black, Arial Black" font-weight="800">NI<tspan x="3.05566" y="0" letter-spacing="-0.01797em">A</tspan><tspan x="4.95508" y="0" letter-spacing="-0.0002em">GARA</tspan></text>
         </g>
         <g id="genesee-2" data-name="genesee">
-         				<a id="Genesee-pop" class="region-county" data-toggle="modal" data-target="#region-modal" data-content="<h3 class='text-primary mt-3 mb-4'>Genesee Top 5 Commodities</h3><?php echo $Genesee['top_5']; ?>">
+         				<a id="Genesee-pop" class="region-county" data-toggle="modal" data-target="#region-modal" data-content="<h3 class='text-primary mt-3 mb-4'>Genesee Top 5 Agricultural Products</h3><?php echo $Genesee['top_5']; ?>">
 <text transform="translate(40.88466 53.54333)" font-size="2.5" font-family="Arial-Black, Arial Black" font-weight="800">GENESEE</text>
          				</a></g>
         <g id="cayuga-2" data-name="cayuga">
-                             				<a id="Cayuga-pop" class="region-county" data-toggle="modal" data-target="#region-modal" data-content="<h3 class='text-primary mt-3 mb-4'>Cayuga Top 5 Commodities</h3><?php echo $Cayuga['top_5']; ?>">
+                             				<a id="Cayuga-pop" class="region-county" data-toggle="modal" data-target="#region-modal" data-content="<h3 class='text-primary mt-3 mb-4'>Cayuga Top 5 Agricultural Products</h3><?php echo $Cayuga['top_5']; ?>">
 <text transform="translate(134.78175 72.90332)" font-size="2.5" font-family="Arial-Black, Arial Black" font-weight="800">C<tspan x="1.94434" y="0" letter-spacing="-0.08477em">A</tspan><tspan x="3.67676" y="0">YUGA</tspan></text>
                              				</a></g>
         <g id="oswego-2" data-name="oswego">
-                                       				<a id="Oswego-pop" class="region-county" data-toggle="modal" data-target="#region-modal" data-content="<h3 class='text-primary mt-3 mb-4'>Oswego Top 5 Commodities</h3><?php echo $Oswego['top_5']; ?>">
+                                       				<a id="Oswego-pop" class="region-county" data-toggle="modal" data-target="#region-modal" data-content="<h3 class='text-primary mt-3 mb-4'>Oswego Top 5 Agricultural Products</h3><?php echo $Oswego['top_5']; ?>">
 <text transform="translate(155.49086 21.97293)" font-size="2.5" font-family="Arial-Black, Arial Black" font-weight="800">OSWEGO</text>
         </g>
       </g>

@@ -36,39 +36,39 @@
       </g>
       <g id="Names">
         <g id="tompkins-2" data-name="tompkins">
-          		<a id="Thompkins-pop" class="region-county" data-toggle="modal" data-target="#region-modal" data-content="<h3 class='text-primary mt-3 mb-4'>Tompkins Top 5 Commodities</h3><?php echo $Tompkins['top_5']; ?>">
+          		<a id="Thompkins-pop" class="region-county" data-toggle="modal" data-target="#region-modal" data-content="<h3 class='text-primary mt-3 mb-4'>Tompkins Top 5 Agricultural Products</h3><?php echo $Tompkins['top_5']; ?>">
 <text transform="translate(101.86136 72.57142)" font-size="2.5" font-family="Arial-Black, Arial Black" font-weight="800" letter-spacing="-0.03398em">T<tspan x="1.72021" y="0" letter-spacing="-0.0002em">OMPKINS</tspan></text>
           		</a></g>
         <g id="schuyler-2" data-name="schuyler">
-          		<a id="Schuyler-pop" class="region-county" data-toggle="modal" data-target="#region-modal" data-content="<h3 class='text-primary mt-3 mb-4'>Schuyler Top 5 Commodities</h3><?php echo $Schuyler['top_5']; ?>">
+          		<a id="Schuyler-pop" class="region-county" data-toggle="modal" data-target="#region-modal" data-content="<h3 class='text-primary mt-3 mb-4'>Schuyler Top 5 Agricultural Products</h3><?php echo $Schuyler['top_5']; ?>">
 <text transform="translate(78.74686 79.02021)" font-size="2.5" font-family="Arial-Black, Arial Black" font-weight="800">SCHUYLER</text>
           		</a></g>
         <g id="steuben-2" data-name="steuben">
-          		<a id="Stueben-pop" class="region-county" data-toggle="modal" data-target="#region-modal" data-content="<h3 class='text-primary mt-3 mb-4'>Stueben Top 5 Commodities</h3><?php echo $Steuben['top_5']; ?>">
+          		<a id="Stueben-pop" class="region-county" data-toggle="modal" data-target="#region-modal" data-content="<h3 class='text-primary mt-3 mb-4'>Stueben Top 5 Agricultural Products</h3><?php echo $Steuben['top_5']; ?>">
 <text transform="translate(53.65275 89.83232)" font-size="2.5" font-family="Arial-Black, Arial Black" font-weight="800">STEUBEN</text>
           		</a></g>
         <g id="wyoming-2" data-name="wyoming">
-          		<a id="Wyoming-pop" class="region-county" data-toggle="modal" data-target="#region-modal" data-content="<h3 class='text-primary mt-3 mb-4'>Wyoming Top 5 Commodities</h3><?php echo $Wyoming['top_5']; ?>">
+          		<a id="Wyoming-pop" class="region-county" data-toggle="modal" data-target="#region-modal" data-content="<h3 class='text-primary mt-3 mb-4'>Wyoming Top 5 Agricultural Products</h3><?php echo $Wyoming['top_5']; ?>">
 <text transform="translate(7.5759 55.12739)" font-size="2.5" font-family="Arial-Black, Arial Black" font-weight="800">W<tspan x="2.5" y="0" letter-spacing="-0.05996em">Y</tspan><tspan x="4.29443" y="0">OMING</tspan></text>
           		</a></g>
         <g id="cayuga-2" data-name="cayuga">
-          		<a id="Cayuga-pop" class="region-county" data-toggle="modal" data-target="#region-modal" data-content="<h3 class='text-primary mt-3 mb-4'>Cayuga Top 5 Commodities</h3><?php echo $Cayuga['top_5']; ?>">
+          		<a id="Cayuga-pop" class="region-county" data-toggle="modal" data-target="#region-modal" data-content="<h3 class='text-primary mt-3 mb-4'>Cayuga Top 5 Agricultural Products</h3><?php echo $Cayuga['top_5']; ?>">
 <text transform="translate(101.88016 51.32395)" font-size="2.5" font-family="Arial-Black, Arial Black" font-weight="800">C<tspan x="1.94434" y="0" letter-spacing="-0.08477em">A</tspan><tspan x="3.67676" y="0">YUGA</tspan></text>
           		</a></g>
         <g id="seneca-2" data-name="seneca">
-          		<a id="Seneca-pop" class="region-county" data-toggle="modal" data-target="#region-modal" data-content="<h3 class='text-primary mt-3 mb-4'>Seneca Top 5 Commodities</h3><?php echo $Seneca['top_5']; ?>">
+          		<a id="Seneca-pop" class="region-county" data-toggle="modal" data-target="#region-modal" data-content="<h3 class='text-primary mt-3 mb-4'>Seneca Top 5 Agricultural Products</h3><?php echo $Seneca['top_5']; ?>">
 <text transform="translate(83.31632 45.77592)" font-size="2.5" font-family="Arial-Black, Arial Black" font-weight="800">SENECA</text>
           		</a></g>
         <g id="ontario-2" data-name="ontario">
-          		<a id="Ontario-pop" class="region-county" data-toggle="modal" data-target="#region-modal" data-content="<h3 class='text-primary mt-3 mb-4'>Ontario Top 5 Commodities</h3><?php echo $Ontario['top_5']; ?>">
+          		<a id="Ontario-pop" class="region-county" data-toggle="modal" data-target="#region-modal" data-content="<h3 class='text-primary mt-3 mb-4'>Ontario Top 5 Agricultural Products</h3><?php echo $Ontario['top_5']; ?>">
 <text transform="translate(60.76761 41.33015)" font-size="2.5" font-family="Arial-Black, Arial Black" font-weight="800">ON<tspan x="4.16504" y="0" letter-spacing="-0.06777em">T</tspan><tspan x="5.80078" y="0" letter-spacing="0.0002em">ARIO</tspan></text>
           		</a></g>
         <g id="livingston-2" data-name="livingston">
-          		<a id="Livingston-pop" class="region-county" data-toggle="modal" data-target="#region-modal" data-content="<h3 class='text-primary mt-3 mb-4'>Livingston Top 5 Commodities</h3><?php echo $Livingston['top_5']; ?>">
+          		<a id="Livingston-pop" class="region-county" data-toggle="modal" data-target="#region-modal" data-content="<h3 class='text-primary mt-3 mb-4'>Livingston Top 5 Agricultural Products</h3><?php echo $Livingston['top_5']; ?>">
 <text transform="translate(29.52787 48.72715)" font-size="2.5" font-family="Arial-Black, Arial Black" font-weight="800">LIVINGS<tspan x="11.52832" y="0" letter-spacing="-0.03418em">T</tspan><tspan x="13.24854" y="0" letter-spacing="-0.0002em">ON</tspan></text>
           		</a></g>
         <g id="yates-2" data-name="yates">
-          		<a id="Yates-pop" class="region-county" data-toggle="modal" data-target="#region-modal" data-content="<h3 class='text-primary mt-3 mb-4'>Yates Top 5 Commodities</h3><?php echo $Yates['top_5']; ?>">
+          		<a id="Yates-pop" class="region-county" data-toggle="modal" data-target="#region-modal" data-content="<h3 class='text-primary mt-3 mb-4'>Yates Top 5 Agricultural Products</h3><?php echo $Yates['top_5']; ?>">
 <text transform="translate(69.7006 58.35334)" font-size="2.5" font-family="Arial-Black, Arial Black" font-weight="800" letter-spacing="-0.09434em">Y<tspan x="1.70898" y="0" letter-spacing="-0.06875em">A</tspan><tspan x="3.48145" y="0" letter-spacing="-0.0002em">TES</tspan></text>
           		</a></g>
       </g>
