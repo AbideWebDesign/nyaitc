@@ -327,9 +327,7 @@ get_header();
 					<div class="align-self-center">
 						
 						<ul class="list-inline mb-0">
-				
-							<li class="list-inline-item"><a href="https://twitter.com/intent/tweet?url=<?php the_permalink(); ?>&text=" target="_blank" class="text-white"><i class="fab fa-twitter"></i></a></li>
-							
+											
 							<li class="list-inline-item"><a href="https://www.facebook.com/sharer/sharer.php?u=<?php the_permalink(); ?>" target="_blank" class="text-white"><i class="fab fa-facebook"></i></a></li>
 				
 							<li class="list-inline-item"><a href="mailto:?body=<?php the_permalink(); ?>" target="_blank" class="text-white"><i class="fa fa-envelope"></i></a></li>
