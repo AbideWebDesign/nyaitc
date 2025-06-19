@@ -30,19 +30,26 @@
         </g>
       </g>
       <g id="Icons">
-        <image id="Apple" width="343" height="441" transform="translate(32.33008 34.95378) scale(0.01492)" xlink:href="<?php the_field('apple_icon_image'); ?>"/>
-<!--         <image id="Cabbage" width="270" height="279" transform="translate(30.46209 29.23046) scale(0.01809)" xlink:href="longisland2.png"/> -->
-        <image id="Cheese" width="401" height="364" transform="translate(6.08288 31.98756) scale(0.01236)" xlink:href="<?php the_field('cheese_icon_image'); ?>"/>
-        <image id="Commercial_Fishing" data-name="Commercial Fishing" width="565" height="340" transform="translate(8.66168 19.48534) scale(0.01388)" xlink:href="<?php the_field('commercial_fishing_icon_image'); ?>"/>
-        <image id="Commercial_Fishing-2" data-name="Commercial Fishing" width="565" height="340" transform="translate(35.64162 13.99253) scale(0.01448)" xlink:href="<?php the_field('commercial_fishing_icon_image'); ?>"/>
-        <image id="Commercial_Fishing-3" data-name="Commercial Fishing" width="565" height="340" transform="translate(63.65673 5.19258) scale(0.01456)" xlink:href="<?php the_field('commercial_fishing_icon_image'); ?>"/>
-        <image id="Commercial_Fishing-4" data-name="Commercial Fishing" width="565" height="340" transform="translate(63.65673 41.14813) scale(0.01456)" xlink:href="<?php the_field('commercial_fishing_icon_image'); ?>"/>
-        <image id="Commercial_Fishing-5" data-name="Commercial Fishing" width="565" height="340" transform="translate(13.29234 49.03959) scale(0.01334)" xlink:href="<?php the_field('commercial_fishing_icon_image'); ?>"/>
-        <image id="grapes" width="472" height="481" transform="translate(49.3019 26.31107) scale(0.01492)" xlink:href="<?php the_field('grapes_icon_image'); ?>"/>
-        <image id="Green_Beans" data-name="Green Beans" width="396" height="529" transform="translate(61.12578 27.94966) scale(0.01492)" xlink:href="<?php the_field('beans_icon_image'); ?>"/>
-        <image id="greenhouse" width="427" height="288" transform="translate(39.43782 25.22769) scale(0.01492)" xlink:href="<?php the_field('greenhouse_icon_image'); ?>"/>
-        <image id="honey" width="499" height="472" transform="translate(19.75594 29.05141) scale(0.01492)" xlink:href="<?php the_field('honey_icon_image'); ?>"/>
-        <image id="potatoes" width="511" height="305" transform="translate(20.17996 37.96468) scale(0.01492)" xlink:href="<?php the_field('potatoes_icon_image'); ?>"/>
+		<a <?php echo get_map_icon_html('apple'); ?>><image id="Apple" data-name="apple" width="343" height="441" transform="translate(32.33008 34.95378) scale(0.01492)" xlink:href="<?php the_field('apple_icon_image'); ?>"/></a>
+		
+		<a <?php echo get_map_icon_html('cheese'); ?>><image id="Cheese" data-name="cheese" width="401" height="364" transform="translate(6.08288 31.98756) scale(0.01236)" xlink:href="<?php the_field('cheese_icon_image'); ?>"/></a>
+		<a <?php echo get_map_icon_html('cheese'); ?>><image id="Cheese-2" data-name="cheese" width="401" height="364" transform="translate(29.08288 29.98756) scale(0.01236)" xlink:href="<?php the_field('cheese_icon_image'); ?>"/></a>
+		
+		<a <?php echo get_map_icon_html('commercial_fishing'); ?>><image id="Commercial_Fishing" data-name="commercial_fishing" width="565" height="340" transform="translate(8.66168 19.48534) scale(0.01388)" xlink:href="<?php the_field('commercial_fishing_icon_image'); ?>"/></a>
+		<a <?php echo get_map_icon_html('commercial_fishing'); ?>><image id="Commercial_Fishing-2" data-name="commercial_fishing" width="565" height="340" transform="translate(35.64162 13.99253) scale(0.01448)" xlink:href="<?php the_field('commercial_fishing_icon_image'); ?>"/></a>
+		<a <?php echo get_map_icon_html('commercial_fishing'); ?>><image id="Commercial_Fishing-3" data-name="commercial_fishing" width="565" height="340" transform="translate(63.65673 5.19258) scale(0.01456)" xlink:href="<?php the_field('commercial_fishing_icon_image'); ?>"/></a>
+		<a <?php echo get_map_icon_html('commercial_fishing'); ?>><image id="Commercial_Fishing-4" data-name="commercial_fishing" width="565" height="340" transform="translate(63.65673 41.14813) scale(0.01456)" xlink:href="<?php the_field('commercial_fishing_icon_image'); ?>"/></a>
+		<a <?php echo get_map_icon_html('commercial_fishing'); ?>><image id="Commercial_Fishing-5" data-name="commercial_fishing" width="565" height="340" transform="translate(13.29234 49.03959) scale(0.01334)" xlink:href="<?php the_field('commercial_fishing_icon_image'); ?>"/></a>
+		
+		<a <?php echo get_map_icon_html('grapes'); ?>><image id="grapes" data-name="grapes" width="472" height="481" transform="translate(49.3019 26.31107) scale(0.01492)" xlink:href="<?php the_field('grapes_icon_image'); ?>"/></a>
+		
+		<a <?php echo get_map_icon_html('beans'); ?>><image id="Green_Beans" data-name="green_beans" width="396" height="529" transform="translate(61.12578 27.94966) scale(0.01492)" xlink:href="<?php the_field('beans_icon_image'); ?>"/></a>
+		
+		<a <?php echo get_map_icon_html('greenhouse'); ?>><image id="greenhouse" data-name="greenhouse" width="427" height="288" transform="translate(39.43782 25.22769) scale(0.01492)" xlink:href="<?php the_field('greenhouse_icon_image'); ?>"/></a>
+		
+		<a <?php echo get_map_icon_html('honey'); ?>><image id="honey" data-name="honey" width="499" height="472" transform="translate(19.75594 29.05141) scale(0.01492)" xlink:href="<?php the_field('honey_icon_image'); ?>"/></a>
+		
+		<a <?php echo get_map_icon_html('potatoes'); ?>><image id="potatoes" data-name="potatoes" width="511" height="305" transform="translate(20.17996 37.96468) scale(0.01492)" xlink:href="<?php the_field('potatoes_icon_image'); ?>"/></a>
       </g>
     </g>
   </g>
