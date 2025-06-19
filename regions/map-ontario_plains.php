@@ -119,7 +119,7 @@
 		<a <?php echo get_map_icon_html('peas'); ?>><image id="peas-2" data-name="peas" width="451" height="393" transform="translate(112.83891 33.83164) scale(0.01492)" xlink:href="<?php the_field('peas_icon_image'); ?>"/></a>
 		<a <?php echo get_map_icon_html('peas'); ?>><image id="peas-3" data-name="peas" width="451" height="393" transform="translate(54.80402 56.01646) scale(0.01492)" xlink:href="<?php the_field('peas_icon_image'); ?>"/></a>
 		<a <?php echo get_map_icon_html('peas'); ?>><image id="peas-4" data-name="peas" width="451" height="393" transform="translate(43.11667 24.92228) scale(0.01492)" xlink:href="<?php the_field('peas_icon_image'); ?>"/></a>
-		<a <?php echo get_map_icon_html('peas'); ?>><image id="peas-5" data-name="peas" width="451" height="393" transform="translate(59.51253 35.08741) scale(0.01492)" xlink:href="<?php the_field('peas_icon_image'); ?>"/></a>
+		<a <?php echo get_map_icon_html('peas'); ?>><image id="peas-5" data-name="peas" width="451" height="393" transform="translate(59.51253 30.08741) scale(0.01492)" xlink:href="<?php the_field('peas_icon_image'); ?>"/></a>
 		
 		<a <?php echo get_map_icon_html('pig'); ?>><image id="pig" data-name="pig" width="2369" height="1408" transform="translate(119.01205 45.13563) scale(0.00399)" xlink:href="<?php the_field('pig_icon_image'); ?>"/></a>
 		
@@ -128,10 +128,10 @@
 		<a <?php echo get_map_icon_html('sheep'); ?>><image id="sheep" data-name="sheep" width="543" height="438" transform="translate(32.47178 55.7135) scale(0.01492)" xlink:href="<?php the_field('sheep_icon_image'); ?>"/></a>
 		<a <?php echo get_map_icon_html('sheep'); ?>><image id="sheep-2" data-name="sheep" width="543" height="438" transform="translate(143.2396 73.63269) scale(0.01492)" xlink:href="<?php the_field('sheep_icon_image'); ?>"/></a>
 		
-		<a <?php echo get_map_icon_html('soybeans'); ?>><image id="soybeans" data-name="soybeans" width="585" height="474" transform="translate(1.82766 32.01137) scale(0.01492)" xlink:href="<?php the_field('soybeans_icon_image'); ?>"/></a>
-		<a <?php echo get_map_icon_html('soybeans'); ?>><image id="soybeans-2" data-name="soybeans" width="585" height="474" transform="translate(40.99509 36.37335) scale(0.01492)" xlink:href="<?php the_field('soybeans_icon_image'); ?>"/></a>
-		<a <?php echo get_map_icon_html('soybeans'); ?>><image id="soybeans-3" data-name="soybeans" width="585" height="474" transform="translate(58.51267 27.12693) scale(0.01492)" xlink:href="<?php the_field('soybeans_icon_image'); ?>"/></a>
-		<a <?php echo get_map_icon_html('soybeans'); ?>><image id="soybeans-4" data-name="soybeans" width="585" height="474" transform="translate(47.71447 54.33401) scale(0.01492)" xlink:href="<?php the_field('soybeans_icon_image'); ?>"/></a>
+		<a <?php echo get_map_icon_html('soybeans'); ?>><image id="soybeans" data-name="soybeans" width="585" height="474" transform="translate(1.82766 32.01137) scale(0.01292)" xlink:href="<?php the_field('soybeans_icon_image'); ?>"/></a>
+		<a <?php echo get_map_icon_html('soybeans'); ?>><image id="soybeans-2" data-name="soybeans" width="585" height="474" transform="translate(40.99509 36.37335) scale(0.01292)" xlink:href="<?php the_field('soybeans_icon_image'); ?>"/></a>
+		<a <?php echo get_map_icon_html('soybeans'); ?>><image id="soybeans-3" data-name="soybeans" width="585" height="474" transform="translate(70.51267 47.12693) scale(0.01292)" xlink:href="<?php the_field('soybeans_icon_image'); ?>"/></a>
+		<a <?php echo get_map_icon_html('soybeans'); ?>><image id="soybeans-4" data-name="soybeans" width="585" height="474" transform="translate(47.71447 54.33401) scale(0.01292)" xlink:href="<?php the_field('soybeans_icon_image'); ?>"/></a>
       </g>
     </g>
   </g>
