@@ -102,11 +102,11 @@
 		<a <?php echo get_map_icon_html('christmas_tree'); ?>><image id="Christmas_Tree" data-name="christmas_tree" width="338" height="443" transform="translate(46.3222 123.91125) scale(0.01492)" xlink:href="<?php the_field('christmas_tree_icon_image'); ?>"/></a>
 		<a <?php echo get_map_icon_html('christmas_tree'); ?>><image id="Christmas_Tree-2" data-name="christmas_tree" width="338" height="443" transform="translate(47.83578 68.13948) scale(0.01492)" xlink:href="<?php the_field('christmas_tree_icon_image'); ?>"/></a>
 		
-		<a <?php echo get_map_icon_html('corn'); ?>><image id="corn" data-name="corn" width="591" height="534" transform="translate(10.07462 65.47138) scale(0.01492)" xlink:href="<?php the_field('corn_icon_image'); ?>"/></a>
-		<a <?php echo get_map_icon_html('corn'); ?>><image id="corn-2" data-name="corn" width="591" height="534" transform="translate(37.05392 59.45853) scale(0.01492)" xlink:href="<?php the_field('corn_icon_image'); ?>"/></a>
-		<a <?php echo get_map_icon_html('corn'); ?>><image id="corn-3" data-name="corn" width="591" height="534" transform="translate(94.97948 80.73083) scale(0.01492)" xlink:href="<?php the_field('corn_icon_image'); ?>"/></a>
-		<a <?php echo get_map_icon_html('corn'); ?>><image id="corn-4" data-name="corn" width="591" height="534" transform="translate(65.47776 115.55013) scale(0.01492)" xlink:href="<?php the_field('corn_icon_image'); ?>"/></a>
-		<a <?php echo get_map_icon_html('corn'); ?>><image id="corn-5" data-name="corn" width="591" height="534" transform="translate(37.05392 77.25984) scale(0.01492)" xlink:href="<?php the_field('corn_icon_image'); ?>"/></a>
+		<a <?php echo get_map_icon_html('corn'); ?>><image id="corn" data-name="corn" width="591" height="534" transform="translate(10.07462 65.47138) scale(0.01292)" xlink:href="<?php the_field('corn_icon_image'); ?>"/></a>
+		<a <?php echo get_map_icon_html('corn'); ?>><image id="corn-2" data-name="corn" width="591" height="534" transform="translate(37.05392 59.45853) scale(0.01292)" xlink:href="<?php the_field('corn_icon_image'); ?>"/></a>
+		<a <?php echo get_map_icon_html('corn'); ?>><image id="corn-3" data-name="corn" width="591" height="534" transform="translate(94.97948 80.73083) scale(0.01292)" xlink:href="<?php the_field('corn_icon_image'); ?>"/></a>
+		<a <?php echo get_map_icon_html('corn'); ?>><image id="corn-4" data-name="corn" width="591" height="534" transform="translate(65.47776 115.55013) scale(0.01292)" xlink:href="<?php the_field('corn_icon_image'); ?>"/></a>
+		<a <?php echo get_map_icon_html('corn'); ?>><image id="corn-5" data-name="corn" width="591" height="534" transform="translate(37.05392 77.25984) scale(0.01292)" xlink:href="<?php the_field('corn_icon_image'); ?>"/></a>
 		
 		<a <?php echo get_map_icon_html('dairy_cow'); ?>><image id="dairy_cow" data-name="dairy_cow" width="707" height="401" transform="translate(2.71705 85.99532) scale(0.01197)" xlink:href="<?php the_field('dairy_cow_icon_image'); ?>"/></a>
 		
@@ -118,30 +118,30 @@
 		<a <?php echo get_map_icon_html('grains'); ?>><image id="Grains-2" data-name="grains" width="419" height="612" transform="translate(67.40453 102.23803) scale(0.01492)" xlink:href="<?php the_field('grains_icon_image'); ?>"/></a>
 		<a <?php echo get_map_icon_html('grains'); ?>><image id="Grains-3" data-name="grains" width="419" height="612" transform="translate(123.6411 82.90082) scale(0.01492)" xlink:href="<?php the_field('grains_icon_image'); ?>"/></a>
 		
-		<a <?php echo get_map_icon_html('beans'); ?>><image id="Green_Beans" data-name="green_beans" width="396" height="529" transform="translate(38.50893 85.69675) scale(0.01492)" xlink:href="<?php the_field('beans_icon_image'); ?>"/></a>
-		<a <?php echo get_map_icon_html('beans'); ?>><image id="Green_Beans-2" data-name="green_beans" width="396" height="529" transform="translate(111.09049 80.76814) scale(0.01492)" xlink:href="<?php the_field('beans_icon_image'); ?>"/></a>
+		<a <?php echo get_map_icon_html('beans'); ?>><image id="Green_Beans" data-name="green_beans" width="396" height="529" transform="translate(38.50893 85.69675) scale(0.01292)" xlink:href="<?php the_field('beans_icon_image'); ?>"/></a>
+		<a <?php echo get_map_icon_html('beans'); ?>><image id="Green_Beans-2" data-name="green_beans" width="396" height="529" transform="translate(111.09049 80.76814) scale(0.01292)" xlink:href="<?php the_field('beans_icon_image'); ?>"/></a>
 		
 		<a <?php echo get_map_icon_html('greenhouse'); ?>><image id="greenhouse" data-name="greenhouse" width="427" height="288" transform="translate(15.27549 92.73263) scale(0.01492)" xlink:href="<?php the_field('greenhouse_icon_image'); ?>"/></a>
 		<a <?php echo get_map_icon_html('greenhouse'); ?>><image id="greenhouse-2" data-name="greenhouse" width="427" height="288" transform="translate(58.54236 49.15702) scale(0.01492)" xlink:href="<?php the_field('greenhouse_icon_image'); ?>"/></a>
 		<a <?php echo get_map_icon_html('greenhouse'); ?>><image id="greenhouse-3" data-name="greenhouse" width="427" height="288" transform="translate(111.87569 104.61602) scale(0.01492)" xlink:href="<?php the_field('greenhouse_icon_image'); ?>"/></a>
 		<a <?php echo get_map_icon_html('greenhouse'); ?>><image id="greenhouse-4" data-name="greenhouse" width="427" height="288" transform="translate(130.14228 117.99864) scale(0.01468)" xlink:href="<?php the_field('greenhouse_icon_image'); ?>"/></a>
 		
-		<a <?php echo get_map_icon_html('hay'); ?>><image id="Hay" data-name="hay" width="432" height="334" transform="translate(20.43719 68.9528) scale(0.01492)" xlink:href="<?php the_field('hay_icon_image'); ?>"/></a>
-		<a <?php echo get_map_icon_html('hay'); ?>><image id="Hay-2" data-name="hay" width="432" height="334" transform="translate(24.28856 101.23618) scale(0.01492)" xlink:href="<?php the_field('hay_icon_image'); ?>"/></a>
-		<a <?php echo get_map_icon_html('hay'); ?>><image id="Hay-3" data-name="hay" width="432" height="334" transform="translate(33.89291 72.75045) scale(0.01492)" xlink:href="<?php the_field('hay_icon_image'); ?>"/></a>
-		<a <?php echo get_map_icon_html('hay'); ?>><image id="Hay-4" data-name="hay" width="432" height="334" transform="translate(55.90923 69.44521) scale(0.01492)" xlink:href="<?php the_field('hay_icon_image'); ?>"/></a>
-		<a <?php echo get_map_icon_html('hay'); ?>><image id="Hay-5" data-name="hay" width="432" height="334" transform="translate(114.48011 92.51077) scale(0.01492)" xlink:href="<?php the_field('hay_icon_image'); ?>"/></a>
-		<a <?php echo get_map_icon_html('hay'); ?>><image id="Hay-6" data-name="hay" width="432" height="334" transform="translate(103.33132 119.55105) scale(0.01492)" xlink:href="<?php the_field('hay_icon_image'); ?>"/></a>
-		<a <?php echo get_map_icon_html('hay'); ?>><image id="Hay-7" data-name="hay" width="432" height="334" transform="translate(78.60825 113.13257) scale(0.01492)" xlink:href="<?php the_field('hay_icon_image'); ?>"/></a>
+		<a <?php echo get_map_icon_html('hay'); ?>><image id="Hay" data-name="hay" width="432" height="334" transform="translate(20.43719 68.9528) scale(0.01292)" xlink:href="<?php the_field('hay_icon_image'); ?>"/></a>
+		<a <?php echo get_map_icon_html('hay'); ?>><image id="Hay-2" data-name="hay" width="432" height="334" transform="translate(24.28856 101.23618) scale(0.01292)" xlink:href="<?php the_field('hay_icon_image'); ?>"/></a>
+		<a <?php echo get_map_icon_html('hay'); ?>><image id="Hay-3" data-name="hay" width="432" height="334" transform="translate(33.89291 72.75045) scale(0.01292)" xlink:href="<?php the_field('hay_icon_image'); ?>"/></a>
+		<a <?php echo get_map_icon_html('hay'); ?>><image id="Hay-4" data-name="hay" width="432" height="334" transform="translate(55.90923 69.44521) scale(0.01292)" xlink:href="<?php the_field('hay_icon_image'); ?>"/></a>
+		<a <?php echo get_map_icon_html('hay'); ?>><image id="Hay-5" data-name="hay" width="432" height="334" transform="translate(114.48011 92.51077) scale(0.01292)" xlink:href="<?php the_field('hay_icon_image'); ?>"/></a>
+		<a <?php echo get_map_icon_html('hay'); ?>><image id="Hay-6" data-name="hay" width="432" height="334" transform="translate(103.33132 119.55105) scale(0.01292)" xlink:href="<?php the_field('hay_icon_image'); ?>"/></a>
+		<a <?php echo get_map_icon_html('hay'); ?>><image id="Hay-7" data-name="hay" width="432" height="334" transform="translate(78.60825 113.13257) scale(0.01292)" xlink:href="<?php the_field('hay_icon_image'); ?>"/></a>
 		
-		<a <?php echo get_map_icon_html('honey'); ?>><image id="honey" data-name="honey" width="499" height="472" transform="translate(21.89338 86.78518) scale(0.01492)" xlink:href="<?php the_field('honey_icon_image'); ?>"/></a>
-		<a <?php echo get_map_icon_html('honey'); ?>><image id="honey-2" data-name="honey" width="499" height="472" transform="translate(52.48781 76.77099) scale(0.01492)" xlink:href="<?php the_field('honey_icon_image'); ?>"/></a>
-		<a <?php echo get_map_icon_html('honey'); ?>><image id="honey-3" data-name="honey" width="499" height="472" transform="translate(80.04395 59.45853) scale(0.01492)" xlink:href="<?php the_field('honey_icon_image'); ?>"/></a>
-		<a <?php echo get_map_icon_html('honey'); ?>><image id="honey-4" data-name="honey" width="499" height="472" transform="translate(139.69567 102.03633) scale(0.01468)" xlink:href="<?php the_field('honey_icon_image'); ?>"/></a>
-		<a <?php echo get_map_icon_html('honey'); ?>><image id="honey-5" data-name="honey" width="499" height="472" transform="translate(74.90711 97.06875) scale(0.01492)" xlink:href="<?php the_field('honey_icon_image'); ?>"/></a>
+		<a <?php echo get_map_icon_html('honey'); ?>><image id="honey" data-name="honey" width="499" height="472" transform="translate(21.89338 86.78518) scale(0.01292)" xlink:href="<?php the_field('honey_icon_image'); ?>"/></a>
+		<a <?php echo get_map_icon_html('honey'); ?>><image id="honey-2" data-name="honey" width="499" height="472" transform="translate(52.48781 76.77099) scale(0.01292)" xlink:href="<?php the_field('honey_icon_image'); ?>"/></a>
+		<a <?php echo get_map_icon_html('honey'); ?>><image id="honey-3" data-name="honey" width="499" height="472" transform="translate(80.04395 59.45853) scale(0.01292)" xlink:href="<?php the_field('honey_icon_image'); ?>"/></a>
+		<a <?php echo get_map_icon_html('honey'); ?>><image id="honey-4" data-name="honey" width="499" height="472" transform="translate(139.69567 102.03633) scale(0.01268)" xlink:href="<?php the_field('honey_icon_image'); ?>"/></a>
+		<a <?php echo get_map_icon_html('honey'); ?>><image id="honey-5" data-name="honey" width="499" height="472" transform="translate(74.90711 97.06875) scale(0.01292)" xlink:href="<?php the_field('honey_icon_image'); ?>"/></a>
 		
-		<a <?php echo get_map_icon_html('horse'); ?>><image id="horse" data-name="horse" width="1883" height="1910" transform="translate(68.33195 50.66995) scale(0.00483)" xlink:href="<?php the_field('horse_icon_image'); ?>"/></a>
-		<a <?php echo get_map_icon_html('horse'); ?>><image id="horse-2" data-name="horse" width="1883" height="1910" transform="translate(47.10776 84.64993) scale(0.00483)" xlink:href="<?php the_field('horse_icon_image'); ?>"/></a>
+		<a <?php echo get_map_icon_html('horse'); ?>><image id="horse" data-name="horse" width="1883" height="1910" transform="translate(68.33195 50.66995) scale(0.00383)" xlink:href="<?php the_field('horse_icon_image'); ?>"/></a>
+		<a <?php echo get_map_icon_html('horse'); ?>><image id="horse-2" data-name="horse" width="1883" height="1910" transform="translate(47.10776 84.64993) scale(0.00383)" xlink:href="<?php the_field('horse_icon_image'); ?>"/></a>
 		
 		<a <?php echo get_map_icon_html('maple'); ?>><image id="maple" data-name="maple" width="287" height="305" transform="translate(19.18871 118.63055) scale(0.02029)" xlink:href="<?php the_field('maple_icon_image'); ?>"/></a>
 		<a <?php echo get_map_icon_html('maple'); ?>><image id="maple-2" data-name="maple" width="287" height="305" transform="translate(38.30485 130.66017) scale(0.02029)" xlink:href="<?php the_field('maple_icon_image'); ?>"/></a>
